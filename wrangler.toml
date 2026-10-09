@@ -1,2 +1,5 @@
 name = "nanolite-global-website"
-pages_build_output_dir = "./dist"
+compatibility_date = "2026-10-06"
+
+[assets]
+directory = "./dist"

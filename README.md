@@ -8,22 +8,23 @@ Node.js 22 or newer. No package installation is required.
 
 `npm run build` creates `dist` with the five pages, application files and 32 optimized reference assets. Source documentation and repository metadata are excluded.
 
-## Cloudflare Pages automatic deployments
+## Cloudflare Workers automatic deployments
 
-Create a new **Pages** project through **Workers & Pages > Create application > Pages > Connect to Git**. Authorize GitHub access only to `nanoliteus-dotcom/Nanolite-Global-Website`.
+The connected dashboard project uses Workers Builds. The repository supplies an assets-only Workers configuration that serves the generated `dist` folder. No Worker script is needed.
 
+- Repository: `nanoliteus-dotcom/Nanolite-Global-Website`
 - Production branch: `main`
-- Framework preset: None
 - Build command: `npm run build`
-- Build output directory: `dist`
-- Root directory: leave blank
+- Deploy command: `npx wrangler deploy`
+- Root directory: `/`
 - Node version: 22 (also supplied in `.node-version`)
+- Worker name: `nanolite-global-website`; this must match the dashboard Worker name.
 
-Repository pushes start deployments automatically. A browser refresh displays a completed deployment; it does not initiate one. If preview branches are enabled, review work there before merging to main.
+Pushes to the production branch start builds and deployments automatically. A browser refresh displays a completed deployment; it does not initiate one. Review preview deployments before production changes.
 
-The existing `nanolite-group` project is a Direct Upload project. Leave it unchanged. Cloudflare does not convert an existing Direct Upload Pages project into a Git integration project.
+The prior failure occurred after a successful website build: Workers deployment could not read the Pages-only `pages_build_output_dir` setting. The configuration now uses `[assets] directory = "./dist"` instead.
 
-After reviewing the new preview, add nanoliteglobal.com and www.nanoliteglobal.com under the new project's Custom domains. Current domain registration, DNS control and existing website routes must be inspected before switching production traffic. Do not reuse another domain's assigned nameservers.
+Leave the existing `nanolite-group` Pages project unchanged. After reviewing the new preview, configure the new domain through the Workers project's Settings > Domains & Routes. Current domain registration, DNS control and existing website routes must be inspected before switching production traffic. Do not reuse another domain's assigned nameservers.
 
 ## Current review boundary
 
