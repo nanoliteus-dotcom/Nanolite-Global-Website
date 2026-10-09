@@ -1,0 +1,86 @@
+{
+  "clc": {
+    "id": "clc",
+    "name": "CLC Blocks",
+    "scene": 4,
+    "description": "Fine-pored concrete blocks for wall construction. Explore material selection and installation for your project.",
+    "flow": "quote"
+  },
+  "panels": {
+    "id": "panels",
+    "name": "Precast Panels",
+    "scene": 9,
+    "description": "Precast concrete panels for planned construction applications. Ask our team about suitability and specifications.",
+    "flow": "quote"
+  },
+  "tiles": {
+    "id": "tiles",
+    "name": "Insulated Roof Tiles",
+    "scene": 11,
+    "description": "A roof-insulation solution with a finished mineral surface. Discuss the right assembly for your building.",
+    "flow": "quote"
+  },
+  "hybrid": {
+    "id": "hybrid",
+    "name": "Nano Hybrid Wall System",
+    "scene": 14,
+    "description": "A wall system combining masonry, CLC infill and concrete elements. Explore the components with our team.",
+    "flow": "quote"
+  },
+  "permeable": {
+    "id": "permeable",
+    "name": "Permeable Concrete",
+    "scene": 17,
+    "description": "Porous concrete for water-permeable paving applications. Project design and drainage details require technical review.",
+    "flow": "quote"
+  },
+  "readymix": {
+    "id": "readymix",
+    "name": "Nano ReadyMix",
+    "scene": 21,
+    "description": "40 kg ReadyMix bags. Pakistan material price: PKR 600 per bag (PKR 15/kg). Freight and tax are confirmed separately.",
+    "flow": "order"
+  },
+  "agent": {
+    "id": "agent",
+    "name": "Ready Foaming Agent",
+    "scene": 22,
+    "description": "Foaming agent in 200-litre drums. Pakistan material price: PKR 1,000/litre. Sales quantity is confirmed with our team.",
+    "flow": "order"
+  },
+  "t500": {
+    "id": "t500",
+    "name": "T-500 Plant",
+    "scene": 23,
+    "description": "A compact portable plant for businesses entering lightweight concrete manufacturing.",
+    "flow": "plant"
+  },
+  "t1000": {
+    "id": "t1000",
+    "name": "T-1000 Plant",
+    "scene": 24,
+    "description": "A portable white and blue plant for growing manufacturers.",
+    "flow": "plant"
+  },
+  "t5000": {
+    "id": "t5000",
+    "name": "T-5000 Franchise",
+    "scene": 25,
+    "description": "A larger portable plant for businesses entering industrial production.",
+    "flow": "plant"
+  },
+  "t10000": {
+    "id": "t10000",
+    "name": "T-10000 Franchise",
+    "scene": 26,
+    "description": "An installed manufacturing plant with mixing, material storage and control systems.",
+    "flow": "plant"
+  },
+  "t15000": {
+    "id": "t15000",
+    "name": "T-15000 Franchise",
+    "scene": 27,
+    "description": "A flagship manufacturing system for businesses planning an integrated production facility.",
+    "flow": "plant"
+  }
+}
