@@ -32,15 +32,18 @@ Leave the existing `nanolite-group` Pages project unchanged. After reviewing the
 - 32 image references are mapped in `scene-manifest.json`.
 - Scroll drives a coherent procedural 3D study, rather than morphing unrelated pictures. This is a spatial prototype, not final photoreal production artwork. The original scene references remain available in static mode.
 - Ordinary scrolling, no wheel interception. Reduced motion and unavailable WebGL use a static reference journey.
+- Portable and installed plants have drag rotation, keyboard-accessible rotation/zoom buttons, reset, and a full-size supplied design-render viewer. The render viewer is a still reference, not a rotatable model.
+- The road and 120-metre drainage channel share world coordinates. The underground chapter has three times the usual scroll distance, with a road descent, channel passage, access-shaft ascent and factory reveal. Water uses an animated surface with planar reflections, not a fluid simulation.
+- Delivery follows a curved route with truck heading derived from the travel tangent; the tracking camera follows its forward arrival. Portable equipment includes hoses, stabilizers and control cabinets. Installed plants include access platforms, hopper divisions, bracing and ladders; the yard includes pallet straps, perimeter fences and service connections.
 - The 3D model consistently uses eight floors. It is an illustrative design choice pending approval.
 - Prices are supplied Pakistan material prices only. Freight and tax remain pending. ReadyMix is 40 kg / PKR 600 per bag. Agent sales units remain unconfirmed.
 - Request forms prepare a reviewed email draft. No commerce backend, payment, stock reservation, uploaded files or server-side order/status system is implemented. No fake submission confirmations.
 - The 3D ReadyMix label says 40 kg. The supplied reference image still depicts older artwork and must be replaced before production publication. Original source PNGs are not altered.
 - Plant models and road cutaway are conceptual, not engineering drawings. Final models, exact camera paths, physical water, installation behavior and specifications require further production work.
-- Existing site routes, legal documents and PDFs have not been audited because the public domain could not be retrieved during this session. No production redirect or domain switch has been made.
+- Existing site routes, legal documents and PDFs have not been audited because the public domain could not be retrieved during this session. No production redirect or domain switch has been made. Adding these procedural details does not achieve photoreal fidelity to the supplied images; production-grade textured models or a consistent rendered sequence are still required.
 
 ## Validation
 
-Browser checks cover all 32 scene stops, one shared world, wall-component selection, desktop/tablet/mobile widths down to 320px, five pages, price computation, safe request review, agent/plant form behavior, mobile navigation and reduced motion. Physical mobile hardware, server submission and live Cloudflare deployment are not verified.
+Browser checks cover 32 scenes, one shared world, underground camera coordinates, truck heading, machine drag/button rotation and reset, reference-dialog loading and Escape dismissal, mobile toolbar separation, wall-component selection, desktop/tablet/mobile widths down to 320px, five pages, price computation, safe request review, agent/plant form behavior, mobile navigation and reduced motion. Physical mobile hardware and server submission are not verified. The Workers deployment pipeline is connected to main and has successfully deployed the preceding version.
 
 Read `HANDOFF.md` for the original scene and camera brief. All claims and final artwork require owner approval before the production domain changes.
