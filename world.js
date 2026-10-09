@@ -67,7 +67,8 @@ function tick(now){
  const active=Math.round(raw);sections.forEach((s,i)=>{s.classList.toggle('active',i===active);const copy=s.querySelector('.scene-copy');copy.inert=i!==active});
  const inspection=sections[active].classList.contains('product');camera.setViewOffset(innerWidth,innerHeight,inspection&&innerWidth>700?innerWidth*.16:0,innerWidth<700?-innerHeight*.12:0,innerWidth,innerHeight);
  document.querySelector('.scroll-cue').style.opacity=clamp(1-scrollY/120);document.querySelector('.progress-label').textContent=sections[active].querySelector('h1,h2').textContent+' / '+String(active+1).padStart(2,'0');document.querySelector('.journey-tools').style.visibility=scrollY>sections.at(-1).offsetTop+sections.at(-1).offsetHeight?'hidden':'visible';
- const construction=progress<1?lerp(.01,3,progress):progress<6?3:progress<11?lerp(3,8,clamp((progress-6)/2)):8;
+ const construction=progress<1?lerp(.01,3,progress):progress<6?3:progress<11?lerp(3,8,clamp(progress-6)):8;
+ for(const child of building.children){if(!floors.includes(child)&&child!==highlights&&child.position.y>3)child.visible=child.position.y<=construction*3.4+.1}
  floors.forEach((floor,i)=>{floor.visible=i<Math.ceil(construction);floor.scale.y=clamp(construction-i,.001,1);floor.userData.final.forEach(m=>m.visible=progress>30.3)});
  const blockLift=progress<2?0:progress<3?clamp(progress-2):progress<4?clamp(4-progress):0;wallBlock.position.set(-4.2,4.65+blockLift*.4,3+blockLift*.5);wallBlock.rotation.y=blockLift*.3;wallBlock.visible=progress>1.2;workers[0].visible=progress>1;workers[1].visible=workers[2].visible=progress>6.7;
  roofTile.position.y=27.4+(progress>=9&&progress<=11?Math.sin((progress-9)*Math.PI/2)*.65:0);panel.visible=progress>=7&&progress<11.5;crane.visible=progress<30.7;
