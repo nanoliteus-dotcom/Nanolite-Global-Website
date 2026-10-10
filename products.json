@@ -3,84 +3,145 @@
     "id": "clc",
     "name": "CLC Blocks",
     "scene": 4,
-    "description": "Fine-pored concrete blocks for wall construction. Explore material selection and installation for your project.",
-    "flow": "quote"
+    "description": "Cellular Lightweight Concrete (CLC) combines a fine-pored cement-based body with a lighter masonry format. The cellular structure supports thermal insulation and makes blocks easier to handle, cut and lay. Use CLC as infill within a project-designed structural frame.",
+    "flow": "quote",
+    "features": [
+      "Lightweight wall infill",
+      "Fine-pored cellular structure",
+      "Thermal insulation",
+      "Cutting and laying flexibility"
+    ]
   },
   "panels": {
     "id": "panels",
     "name": "Precast Panels",
     "scene": 9,
     "description": "Precast concrete panels for planned construction applications. Ask our team about suitability and specifications.",
-    "flow": "quote"
+    "flow": "quote",
+    "features": [
+      "Precast concrete construction",
+      "Planned lifting and installation",
+      "Project-specific panel specifications"
+    ]
   },
   "tiles": {
     "id": "tiles",
     "name": "Insulated Roof Tiles",
     "scene": 11,
     "description": "A roof-insulation solution with a finished mineral surface. Discuss the right assembly for your building.",
-    "flow": "quote"
+    "flow": "quote",
+    "features": [
+      "Finished mineral roof surface",
+      "Roof insulation application",
+      "Assembly guidance for your building"
+    ]
   },
   "hybrid": {
     "id": "hybrid",
     "name": "Nano Hybrid Wall System",
     "scene": 14,
     "description": "A wall system combining masonry, CLC infill and concrete elements. Explore the components with our team.",
-    "flow": "quote"
+    "flow": "quote",
+    "features": [
+      "Masonry and CLC infill",
+      "Concrete frame and bond beam",
+      "Explore each wall layer"
+    ]
   },
   "permeable": {
     "id": "permeable",
     "name": "Permeable Concrete",
     "scene": 17,
     "description": "Porous concrete for water-permeable paving applications. Project design and drainage details require technical review.",
-    "flow": "quote"
+    "flow": "quote",
+    "features": [
+      "Water-permeable paving",
+      "Porous concrete surface",
+      "Drainage assembly design"
+    ]
   },
   "readymix": {
     "id": "readymix",
     "name": "Nano ReadyMix",
     "scene": 21,
     "description": "40 kg ReadyMix bags. Pakistan material price: PKR 600 per bag (PKR 15/kg). Freight and tax are confirmed separately.",
-    "flow": "order"
+    "flow": "order",
+    "features": [
+      "40 kg bag",
+      "Pakistan material price: PKR 600 / bag",
+      "Freight and tax confirmed separately"
+    ]
   },
   "agent": {
     "id": "agent",
     "name": "Ready Foaming Agent",
     "scene": 22,
     "description": "Foaming agent in 200-litre drums. Pakistan material price: PKR 1,000/litre. Sales quantity is confirmed with our team.",
-    "flow": "order"
+    "flow": "order",
+    "features": [
+      "200-litre storage drums",
+      "Pakistan material price: PKR 1,000 / litre",
+      "Sales quantity confirmed with our team"
+    ]
   },
   "t500": {
     "id": "t500",
     "name": "T-500 Plant",
     "scene": 23,
     "description": "A compact portable plant for businesses entering lightweight concrete manufacturing.",
-    "flow": "plant"
+    "flow": "plant",
+    "features": [
+      "Compact portable configuration",
+      "Explore the mixing equipment",
+      "Discuss utilities and site readiness"
+    ]
   },
   "t1000": {
     "id": "t1000",
     "name": "T-1000 Plant",
     "scene": 24,
     "description": "A portable white and blue plant for growing manufacturers.",
-    "flow": "plant"
+    "flow": "plant",
+    "features": [
+      "Portable white and blue configuration",
+      "Explore chassis, mixer and controls",
+      "Request the approved equipment specification"
+    ]
   },
   "t5000": {
     "id": "t5000",
     "name": "T-5000 Franchise",
     "scene": 25,
     "description": "A larger portable plant for businesses entering industrial production.",
-    "flow": "plant"
+    "flow": "plant",
+    "features": [
+      "Larger portable configuration",
+      "Explore the mixing and control systems",
+      "Discuss your manufacturing requirements"
+    ]
   },
   "t10000": {
     "id": "t10000",
     "name": "T-10000 Franchise",
     "scene": 26,
     "description": "An installed manufacturing plant with mixing, material storage and control systems.",
-    "flow": "plant"
+    "flow": "plant",
+    "features": [
+      "Installed mixing and material storage",
+      "Access platforms and control systems",
+      "Discuss your production site layout"
+    ]
   },
   "t15000": {
     "id": "t15000",
     "name": "T-15000 Franchise",
     "scene": 27,
     "description": "A flagship manufacturing system for businesses planning an integrated production facility.",
-    "flow": "plant"
+    "flow": "plant",
+    "features": [
+      "Integrated manufacturing facility",
+      "Mixing, storage and material handling",
+      "Discuss equipment and site planning"
+    ]
   }
 }

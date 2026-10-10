@@ -8,7 +8,7 @@
   const image=document.createElement('img');image.src=`assets/scene-${String(p.scene).padStart(2,'0')}.webp`;image.alt=p.name+' illustrative reference';
   const copy=document.createElement('div'),heading=document.createElement('h1'),description=document.createElement('p'),link=document.createElement('a');
   heading.textContent=p.name;description.textContent=p.description;link.className='action';link.href=`request.html?type=${p.flow}&product=${id}`;link.textContent={order:'Order Materials',quote:'Request a Quote',plant:'Submit Plant Inquiry'}[p.flow];
-  copy.append(heading,description,link);
+  copy.append(heading,description);if(p.features?.length){const list=document.createElement('ul');for(const feature of p.features){const item=document.createElement('li');item.textContent=feature;list.append(item)}copy.append(list)}copy.append(link);
   const details=document.createElement('details'),summary=document.createElement('summary'),note=document.createElement('p');summary.textContent='Specifications and project suitability';note.textContent=p.flow==='plant'?'Ask our team for the approved equipment specification, utility requirements and site layout. Capacity is not inferred from the model name.':'Ask our team for approved technical data, application guidance and the current catalog. The scene is illustrative and is not a dimensioned specification.';details.append(summary,note);copy.append(details);
   if(id==='readymix'){const notice=document.createElement('p');notice.className='notice';notice.textContent='Current supply specification: 40 kg per bag. The reference packaging image contains older artwork and is pending replacement.';copy.append(notice)}
   target.replaceChildren(image,copy);

@@ -1,0 +1,38 @@
+[
+  {
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+    "resolution": "2k",
+    "id": "concrete_floor_worn_001"
+  },
+  {
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/rough_concrete",
+    "resolution": "4k",
+    "id": "rough_concrete"
+  },
+  {
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/aerial_grass_rock",
+    "resolution": "2k",
+    "id": "aerial_grass_rock"
+  },
+  {
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/rocky_terrain",
+    "resolution": "2k",
+    "id": "rocky_terrain"
+  },
+  {
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/belfast_sunset_puresky",
+    "resolution": "2k",
+    "id": "belfast_sunset_puresky"
+  },
+  {
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/tree_small_02",
+    "resolution": "1k foliage maps; model geometry not used",
+    "id": "tree_small_02"
+  }
+]

@@ -30,10 +30,12 @@ Leave the existing `nanolite-group` Pages project unchanged. After reviewing the
 
 - Five working pages: homepage, product directory, product detail, request review and contact.
 - 32 image references are mapped in `scene-manifest.json`.
+- A dedicated loading state prevents the reference gallery flashing before the world is ready. Product panels span the right side of the desktop viewport and count 12 products separately from the 32 camera chapters.
+- Photographed CC0 concrete, ground, rock and foliage textures and a captured HDR sky come from Poly Haven; asset sources are recorded in `assets/materials/sources.json`. Desktop concrete uses 4K maps; mobile uses 2K maps and a lower rendering pixel ratio.
 - Scroll drives a coherent procedural 3D study, rather than morphing unrelated pictures. This is a spatial prototype, not final photoreal production artwork. The original scene references remain available in static mode.
 - Ordinary scrolling, no wheel interception. Reduced motion and unavailable WebGL use a static reference journey.
 - Portable and installed plants have drag rotation, keyboard-accessible rotation/zoom buttons, reset, and a full-size supplied design-render viewer. The render viewer is a still reference, not a rotatable model.
-- The road and 120-metre drainage channel share world coordinates. The underground chapter has three times the usual scroll distance, with a road descent, channel passage, access-shaft ascent and factory reveal. Water uses an animated surface with planar reflections, not a fluid simulation.
+- The road and round 120-metre drainage channel share world coordinates. Road and bore geometry contain circular access openings; shallow reflective water, overhead lamps and a rusty ladder form the underground route. The underground chapter has three times the usual scroll distance, with a road descent, channel passage, access-shaft ascent and factory reveal. Water uses an animated surface with planar reflections, not a fluid simulation.
 - Delivery follows a curved route with truck heading derived from the travel tangent; the tracking camera follows its forward arrival. Portable equipment includes hoses, stabilizers and control cabinets. Installed plants include access platforms, hopper divisions, bracing and ladders; the yard includes pallet straps, perimeter fences and service connections.
 - The 3D model consistently uses eight floors. It is an illustrative design choice pending approval.
 - Prices are supplied Pakistan material prices only. Freight and tax remain pending. ReadyMix is 40 kg / PKR 600 per bag. Agent sales units remain unconfirmed.
@@ -44,6 +46,6 @@ Leave the existing `nanolite-group` Pages project unchanged. After reviewing the
 
 ## Validation
 
-Browser checks cover 32 scenes, one shared world, underground camera coordinates, truck heading, machine drag/button rotation and reset, reference-dialog loading and Escape dismissal, mobile toolbar separation, wall-component selection, desktop/tablet/mobile widths down to 320px, five pages, price computation, safe request review, agent/plant form behavior, mobile navigation and reduced motion. Physical mobile hardware and server submission are not verified. The Workers deployment pipeline is connected to main and has successfully deployed the preceding version.
+Browser checks cover a deliberately delayed module load with no gallery flash, full-height desktop product panels and product numbering, 32 scenes, one shared world, underground camera coordinates, truck heading, machine drag/button rotation and reset, reference-dialog loading and Escape dismissal, mobile toolbar separation, wall-component selection, desktop/tablet/mobile widths down to 320px, five pages, price computation, safe request review, agent/plant form behavior, mobile navigation and reduced motion. Physical mobile hardware and server submission are not verified. The Workers deployment pipeline is connected to main and has successfully deployed the preceding version.
 
 Read `HANDOFF.md` for the original scene and camera brief. All claims and final artwork require owner approval before the production domain changes.
