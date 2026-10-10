@@ -1,0 +1,40 @@
+{
+  "source": "32 owner-supplied concept renders",
+  "assembly": "96-second silent preview; 0.65-second editorial dissolves between still views",
+  "edits": {
+    "people_removed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      15,
+      16,
+      20,
+      26,
+      27,
+      28,
+      29,
+      31
+    ],
+    "clc_origin_slot": 4,
+    "approved_40kg_weight_marking": 21
+  },
+  "unchanged_product_renders": [
+    22,
+    23,
+    24,
+    25
+  ],
+  "limitations": [
+    "No continuous camera motion or installation physics",
+    "Single supplied views cannot provide a new 180-degree orbit"
+  ]
+}

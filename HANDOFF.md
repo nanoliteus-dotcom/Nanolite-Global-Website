@@ -1,3 +1,5 @@
+> Current implementation (10 October 2026): the owner chose a scroll-video cinematic preview assembled from these supplied still renders. The continuous camera and physical-motion descriptions below remain a future production brief. See README.md and film-manifest.json for the current implementation.
+
 # Nanolite homepage — complete scene and camera handoff
 
 This describes the 32 generated pictures and the intended continuous homepage journey. Use the pictures as visual references for a single animated world. They are key scenes, not consecutive animation frames. The mobile app is a separate project; this document covers the website visuals only.

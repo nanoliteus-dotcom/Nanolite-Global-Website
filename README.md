@@ -26,26 +26,22 @@ The prior failure occurred after a successful website build: Workers deployment 
 
 Leave the existing `nanolite-group` Pages project unchanged. After reviewing the new preview, configure the new domain through the Workers project's Settings > Domains & Routes. Current domain registration, DNS control and existing website routes must be inspected before switching production traffic. Do not reuse another domain's assigned nameservers.
 
-## Current review boundary
+## Cinematic preview
 
-- Five working pages: homepage, product directory, product detail, request review and contact.
-- 32 image references are mapped in `scene-manifest.json`.
-- A dedicated loading state prevents the reference gallery flashing before the world is ready. Product panels span the right side of the desktop viewport and count 12 products separately from the 32 camera chapters.
-- Photographed CC0 concrete, ground, rock and foliage textures and a captured HDR sky come from Poly Haven; asset sources are recorded in `assets/materials/sources.json`. Desktop concrete uses 4K maps; mobile uses 2K maps and a lower rendering pixel ratio.
-- Scroll drives a coherent procedural 3D study, rather than morphing unrelated pictures. This is a spatial prototype, not final photoreal production artwork. The original scene references remain available in static mode.
-- Ordinary scrolling, no wheel interception. Reduced motion and unavailable WebGL use a static reference journey.
-- Portable and installed plants have drag rotation, keyboard-accessible rotation/zoom buttons, reset, and a full-size supplied design-render viewer. The render viewer is a still reference, not a rotatable model.
-- The road and round 120-metre drainage channel share world coordinates. Road and bore geometry contain circular access openings; shallow reflective water, overhead lamps and a rusty ladder form the underground route. The underground chapter has three times the usual scroll distance, with a road descent, channel passage, access-shaft ascent and factory reveal. Water uses an animated surface with planar reflections, not a fluid simulation.
-- Delivery follows a curved route with truck heading derived from the travel tangent; the tracking camera follows its forward arrival. Portable equipment includes hoses, stabilizers and control cabinets. Installed plants include access platforms, hopper divisions, bracing and ladders; the yard includes pallet straps, perimeter fences and service connections.
-- The 3D model consistently uses eight floors. It is an illustrative design choice pending approval.
-- Prices are supplied Pakistan material prices only. Freight and tax remain pending. ReadyMix is 40 kg / PKR 600 per bag. Agent sales units remain unconfirmed.
-- Request forms prepare a reviewed email draft. No commerce backend, payment, stock reservation, uploaded files or server-side order/status system is implemented. No fake submission confirmations.
-- The 3D ReadyMix label says 40 kg. The supplied reference image still depicts older artwork and must be replaced before production publication. Original source PNGs are not altered.
-- Plant models and road cutaway are conceptual, not engineering drawings. Final models, exact camera paths, physical water, installation behavior and specifications require further production work.
-- Existing site routes, legal documents and PDFs have not been audited because the public domain could not be retrieved during this session. No production redirect or domain switch has been made. Adding these procedural details does not achieve photoreal fidelity to the supplied images; production-grade textured models or a consistent rendered sequence are still required.
+The homepage is now a scroll-controlled, silent film assembled from the 32 supplied photoreal concept renders. Four 24-second chapters have desktop (1600 x 900) and mobile (960 x 540) encodings. Native scrolling controls paused video seeking in both directions; no wheel interception is used. Film chapter paths and timing are in `film-manifest.json`.
+
+This is an editorial preview with dissolves between still renders. It is not a newly rendered continuous camera flight and does not animate installation physics, a moving truck, falling water or a 180-degree plant orbit. Upgrade the film assets when continuous rendered footage is available; the scroll interface can remain the same.
+
+The original bags, drums and machines carry the product appearance. Visible people and their shadows were removed from construction and factory renders. The lifted CLC shot has an empty origin slot. Only the foreground ReadyMix bag weight artwork was corrected from 50 to the approved 40 kg; source PNGs remain untouched. `cinema-provenance.json` records edited scenes.
+
+A minimal black loading screen prevents a gallery flash. The slim header provides Materials, Manufacturing, Contact and a real 13-page downloadable catalogue. Twelve compact black cards have one blue Learn More link each. Nonproduct captions are centered; no scene-reference, skip-to-products, plant-inspection or return controls remain.
+
+Reduced motion, missing video and JavaScript-disabled visits retain an accessible still-image story. The header and catalogue are shared across all five pages. Requests still prepare reviewed email drafts, with no payment, stock reservation or submission backend. ReadyMix is 40 kg / PKR 600 per bag before freight and tax; agent sales quantity is confirmed with the team.
 
 ## Validation
 
-Browser checks cover a deliberately delayed module load with no gallery flash, full-height desktop product panels and product numbering, 32 scenes, one shared world, underground camera coordinates, truck heading, machine drag/button rotation and reset, reference-dialog loading and Escape dismissal, mobile toolbar separation, wall-component selection, desktop/tablet/mobile widths down to 320px, five pages, price computation, safe request review, agent/plant form behavior, mobile navigation and reduced motion. Physical mobile hardware and server submission are not verified. The Workers deployment pipeline is connected to main and has successfully deployed the preceding version.
+`npm test` runs `tests/cinema.cjs` using Playwright and installed Chrome. The build remains dependency-free; Playwright is needed only for browser checks (the Codex runtime already provides it). Screenshots are written to ignored `test-artifacts/`.
 
-Read `HANDOFF.md` for the original scene and camera brief. All claims and final artwork require owner approval before the production domain changes.
+Checks cover loading on reload, decoded forward/reverse chapter seeking, 32 scenes, 12 compact cards, intentional desktop hero line breaks, five pages at desktop/tablet/mobile widths, mobile video selection and menu, reduced motion, no-JavaScript and unavailable-film fallbacks, pricing and safe request review. The catalogue is rendered and inspected across all 13 pages. Physical mobile hardware is not verified.
+
+`HANDOFF.md` retains the original continuous-film production brief. No production domain switch is made by this preview.

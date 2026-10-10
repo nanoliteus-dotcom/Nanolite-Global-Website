@@ -8,3 +8,10 @@
   Cache-Control: no-cache
 /*.css
   Cache-Control: no-cache
+
+/assets/film/*
+  Cache-Control: public, max-age=3600, must-revalidate
+/film-manifest.json
+  Cache-Control: no-cache
+/assets/nanolite-catalogue.pdf
+  Cache-Control: no-cache

@@ -1,0 +1,35 @@
+{
+  "preview": true,
+  "source": "Supplied photoreal concept renders; editorial dissolves, not continuous camera footage.",
+  "secondsPerScene": 3,
+  "parts": [
+    {
+      "desktop": "assets/film/part-1.mp4",
+      "mobile": "assets/film/part-1-mobile.mp4",
+      "firstScene": 1,
+      "sceneCount": 8,
+      "duration": 24
+    },
+    {
+      "desktop": "assets/film/part-2.mp4",
+      "mobile": "assets/film/part-2-mobile.mp4",
+      "firstScene": 9,
+      "sceneCount": 8,
+      "duration": 24
+    },
+    {
+      "desktop": "assets/film/part-3.mp4",
+      "mobile": "assets/film/part-3-mobile.mp4",
+      "firstScene": 17,
+      "sceneCount": 8,
+      "duration": 24
+    },
+    {
+      "desktop": "assets/film/part-4.mp4",
+      "mobile": "assets/film/part-4-mobile.mp4",
+      "firstScene": 25,
+      "sceneCount": 8,
+      "duration": 24
+    }
+  ]
+}

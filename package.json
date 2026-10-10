@@ -1,1 +1,12 @@
-{"name":"nanolite-global-website","version":"0.1.0","private":true,"scripts":{"build":"node build.mjs"},"engines":{"node":">=22"}}
+{
+  "name": "nanolite-global-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/cinema.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
