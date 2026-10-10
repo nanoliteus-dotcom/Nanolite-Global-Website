@@ -28,7 +28,7 @@ Leave the existing `nanolite-group` Pages project unchanged. After reviewing the
 
 ## Cinematic preview
 
-The homepage is now a scroll-controlled, silent film assembled from the 32 supplied photoreal concept renders. Four 24-second chapters have desktop (1600 x 900) and mobile (960 x 540) encodings. Native scrolling controls paused video seeking in both directions; no wheel interception is used. Film chapter paths and timing are in `film-manifest.json`.
+The homepage is now a scroll-controlled, silent film assembled from the 32 supplied photoreal concept renders. Four 24-second chapters have desktop (1600 x 900) and mobile (960 x 540) encodings. Chapters load on demand as complete blobs before decoding, so seeking also works when the host ignores byte-range requests. Native scrolling controls paused video seeking in both directions; no wheel interception is used. Film chapter paths and timing are in `film-manifest.json`.
 
 This is an editorial preview with dissolves between still renders. It is not a newly rendered continuous camera flight and does not animate installation physics, a moving truck, falling water or a 180-degree plant orbit. Upgrade the film assets when continuous rendered footage is available; the scroll interface can remain the same.
 
