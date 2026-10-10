@@ -1,0 +1,14 @@
+[
+  {
+    "file": "tree.gltf",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/tree_small_02",
+    "note": "Original geometry simplified for browser rendering"
+  },
+  {
+    "file": "truck.glb",
+    "license": "CC0",
+    "source": "https://www.innerscene.com/tools/library/3d-parts/semi-tractor-and-box-trailer-bc0bdac8",
+    "note": "Trailer removed at runtime; flatbed and material cargo added"
+  }
+]

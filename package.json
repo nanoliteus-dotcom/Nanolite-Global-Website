@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node build.mjs",
-    "test": "node tests/cinema.cjs"
+    "test": "node tests/journey.cjs"
   },
   "engines": {
     "node": ">=22"

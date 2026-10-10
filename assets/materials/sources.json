@@ -32,7 +32,28 @@
   {
     "license": "CC0",
     "source": "https://polyhaven.com/a/tree_small_02",
-    "resolution": "1k foliage maps; model geometry not used",
+    "resolution": "1k maps with optimized original CC0 geometry",
     "id": "tree_small_02"
+  },
+  {
+    "id": "leafy_grass",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "resolution": "2k"
+  },
+  {
+    "id": "brown_mud_02",
+    "license": "CC0",
+    "source": "https://polyhaven.com/a/brown_mud_02",
+    "resolution": "2k"
+  },
+  {
+    "id": "generated-reference-textures",
+    "source": "Built-in image generation using the owner-supplied landscape and packaging references",
+    "files": [
+      "packaging-atlas.png",
+      "landscape-panorama.png"
+    ],
+    "note": "Generated reconstructions, not manufacturer artwork or an HDR panorama"
   }
 ]

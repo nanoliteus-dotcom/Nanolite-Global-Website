@@ -26,22 +26,20 @@ The prior failure occurred after a successful website build: Workers deployment 
 
 Leave the existing `nanolite-group` Pages project unchanged. After reviewing the new preview, configure the new domain through the Workers project's Settings > Domains & Routes. Current domain registration, DNS control and existing website routes must be inspected before switching production traffic. Do not reuse another domain's assigned nameservers.
 
-## Cinematic preview
+## Continuous 3D preview
 
-The homepage is now a scroll-controlled, silent film assembled from the 32 supplied photoreal concept renders. Four 24-second chapters have desktop (1600 x 900) and mobile (960 x 540) encodings. Chapters load on demand as complete blobs before decoding, so seeking also works when the host ignores byte-range requests. Native scrolling controls paused video seeking in both directions; no wheel interception is used. Film chapter paths and timing are in `film-manifest.json`.
+The homepage uses a continuous Three.js camera journey through one world. Scrolling forwards and backwards moves the camera, construction, extracted wall block, roof tile and delivery truck. Installed plant scenes include a half-orbit. The earlier still-film preview is retained in source history but excluded from deployment.
 
-This is an editorial preview with dissolves between still renders. It is not a newly rendered continuous camera flight and does not animate installation physics, a moving truck, falling water or a 180-degree plant orbit. Upgrade the film assets when continuous rendered footage is available; the scroll interface can remain the same.
+Photographic concrete, grass and soil materials, optimized CC0 tree geometry, a detailed CC0 truck and reference-based generated packaging artwork replace the earlier flat geometry. The distant landscape is a generated panorama; the building and machinery remain reconstructed geometry. This browser preview is not an offline photoreal render and does not reproduce every supplied machine exactly.
 
-The original bags, drums and machines carry the product appearance. Visible people and their shadows were removed from construction and factory renders. The lifted CLC shot has an empty origin slot. Only the foreground ReadyMix bag weight artwork was corrected from 50 to the approved 40 kg; source PNGs remain untouched. `cinema-provenance.json` records edited scenes.
+A minimal black loading screen prevents a gallery flash. The slim header provides Materials, Manufacturing, Contact and a real 13-page downloadable catalogue. Twelve compact black cards have one blue Learn More link each. Nonproduct captions are centered; no people, scene-reference, skip-to-products, plant-inspection or return controls remain.
 
-A minimal black loading screen prevents a gallery flash. The slim header provides Materials, Manufacturing, Contact and a real 13-page downloadable catalogue. Twelve compact black cards have one blue Learn More link each. Nonproduct captions are centered; no scene-reference, skip-to-products, plant-inspection or return controls remain.
-
-Reduced motion, missing video and JavaScript-disabled visits retain an accessible still-image story. The header and catalogue are shared across all five pages. Requests still prepare reviewed email drafts, with no payment, stock reservation or submission backend. ReadyMix is 40 kg / PKR 600 per bag before freight and tax; agent sales quantity is confirmed with the team.
+Reduced motion, asset failures and JavaScript-disabled visits retain an accessible still-image story. The header and catalogue are shared across all five pages. Requests prepare reviewed email drafts, with no payment, stock reservation or submission backend. ReadyMix is 40 kg / PKR 600 per bag before freight and tax; agent sales quantity is confirmed with the team.
 
 ## Validation
 
-`npm test` runs `tests/cinema.cjs` using Playwright and installed Chrome. The build remains dependency-free; Playwright is needed only for browser checks (the Codex runtime already provides it). Screenshots are written to ignored `test-artifacts/`.
+`npm test` runs `tests/journey.cjs` using Playwright and installed Chrome. The build remains dependency-free; Playwright is needed only for browser checks. Screenshots are written to ignored `test-artifacts/`.
 
-Checks cover loading on reload, decoded forward/reverse chapter seeking, 32 scenes, 12 compact cards, intentional desktop hero line breaks, five pages at desktop/tablet/mobile widths, mobile video selection and menu, reduced motion, no-JavaScript and unavailable-film fallbacks, pricing and safe request review. The catalogue is rendered and inspected across all 13 pages. Physical mobile hardware is not verified.
+Checks cover reload, continuous forward/reverse camera travel, all 32 scenes, 12 compact cards, copy line breaks, five responsive pages, mobile canvas/menu, pricing, safe request review, reduced motion, no-JavaScript and asset-failure fallbacks, block/tile extraction and crane clearance. Physical mobile GPU performance is not verified.
 
-`HANDOFF.md` retains the original continuous-film production brief. No production domain switch is made by this preview.
+`HANDOFF.md` retains the reference production brief. The primary Nanolite Group domain remains unchanged.

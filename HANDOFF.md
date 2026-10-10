@@ -1,4 +1,4 @@
-> Current implementation (10 October 2026): the owner chose a scroll-video cinematic preview assembled from these supplied still renders. The continuous camera and physical-motion descriptions below remain a future production brief. See README.md and film-manifest.json for the current implementation.
+> Current implementation (10 October 2026): continuous interactive 3D camera travel has replaced the rejected still-film preview. Reference production details below are targets, not a claim of exact photoreal equivalence. Current UI removes people and auxiliary scene controls. See README.md for validation and limits.
 
 # Nanolite homepage — complete scene and camera handoff
 
