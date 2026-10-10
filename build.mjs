@@ -9,7 +9,7 @@ for(const scene of scenes){const asset=path.resolve(root,scene.image);if(!asset.
 const film=JSON.parse(await readFile(path.join(root,'film-manifest.json'),'utf8'));
 if(film.parts.length!==4||film.parts.reduce((n,p)=>n+p.sceneCount,0)!==32)throw Error('Film must cover all 32 scenes');
 for(const part of film.parts)for(const variant of ['desktop','mobile']){const info=await stat(path.join(root,part[variant]));if(info.size<=10000||info.size>=25000000)throw Error('Invalid film asset size');}
-await stat(path.join(root,'assets/nanolite-catalogue.pdf'));
+if((await stat(path.join(root,'assets/nanolite-catalogue.pdf'))).size>=25000000)throw Error('Catalogue exceeds the hosting asset limit');
 await mkdir(dist,{recursive:true});
 for(const file of files)await copyFile(path.join(root,file),path.join(dist,file));
 await cp(path.join(root,'assets'),path.join(dist,'assets'),{recursive:true,filter:source=>!['materials','models'].includes(path.basename(source))});
