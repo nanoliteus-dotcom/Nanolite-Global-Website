@@ -55,5 +55,11 @@
       "landscape-panorama.png"
     ],
     "note": "Generated reconstructions, not manufacturer artwork or an HDR panorama"
+  },
+  {
+    "id": "night-panorama",
+    "file": "night-panorama.png",
+    "source": "Built-in image generation",
+    "note": "Generated distant nighttime landscape; foreground camera and geometry remain interactive 3D"
   }
 ]

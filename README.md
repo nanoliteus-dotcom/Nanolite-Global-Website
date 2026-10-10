@@ -6,7 +6,7 @@ New, separate website for nanoliteglobal.com. It does not replace the Nanolite G
 
 Node.js 22 or newer. No package installation is required.
 
-`npm run build` creates `dist` with the five pages, application files and 32 optimized reference assets. Source documentation and repository metadata are excluded.
+`npm run build` creates `dist` with the ten pages, application files and 32 optimized reference assets. Source documentation and repository metadata are excluded.
 
 ## Cloudflare Workers automatic deployments
 
@@ -32,14 +32,22 @@ The homepage uses a continuous Three.js camera journey through one world. Scroll
 
 Photographic concrete, grass and soil materials, optimized CC0 tree geometry, a detailed CC0 truck and reference-based generated packaging artwork replace the earlier flat geometry. The distant landscape is a generated panorama; the building and machinery remain reconstructed geometry. This browser preview is not an offline photoreal render and does not reproduce every supplied machine exactly.
 
-A minimal black loading screen prevents a gallery flash. The slim header provides Materials, Manufacturing, Contact and a real 13-page downloadable catalogue. Twelve compact black cards have one blue Learn More link each. Nonproduct captions are centered; no people, scene-reference, skip-to-products, plant-inspection or return controls remain.
+A minimal black loading screen prevents a gallery flash. The shared header provides product, company, resource, expert, contact and app destinations. Eleven restrained product cards arrive after the camera settles. The opening caption sits at the lower left; no people, scene-reference, skip-to-products, plant-inspection or return controls remain.
 
-Reduced motion, asset failures and JavaScript-disabled visits retain an accessible still-image story. The header and catalogue are shared across all five pages. Requests prepare reviewed email drafts, with no payment, stock reservation or submission backend. ReadyMix is 40 kg / PKR 600 per bag before freight and tax; agent sales quantity is confirmed with the team.
+Reduced motion, asset failures and JavaScript-disabled visits retain an accessible still-image story. The header and catalogue are shared across all ten pages. Requests prepare reviewed email drafts, with no payment, stock reservation or submission backend. ReadyMix is 40 kg / PKR 600 per bag before freight and tax; agent sales quantity is confirmed with the team.
 
 ## Validation
 
 `npm test` runs `tests/journey.cjs` using Playwright and installed Chrome. The build remains dependency-free; Playwright is needed only for browser checks. Screenshots are written to ignored `test-artifacts/`.
 
-Checks cover reload, continuous forward/reverse camera travel, all 32 scenes, 12 compact cards, copy line breaks, five responsive pages, mobile canvas/menu, pricing, safe request review, reduced motion, no-JavaScript and asset-failure fallbacks, block/tile extraction and crane clearance. Physical mobile GPU performance is not verified.
+Checks cover reload, continuous forward/reverse camera travel, all 30 scenes, 11 compact cards, copy line breaks, ten responsive pages, mobile canvas/menu, pricing, safe request review, reduced motion, no-JavaScript and asset-failure fallbacks, block/tile extraction and crane clearance. Physical mobile GPU performance is not verified.
 
 `HANDOFF.md` retains the reference production brief. The primary Nanolite Group domain remains unchanged.
+
+## October refinement
+
+The nighttime journey has longer camera holds, progressive clipped construction, a permanent crane and suspended panel, denser optimized trees, continuous terrain, marked wet roads, reflectors, rain streaks and a round lit drainage tunnel. The hybrid wall detour was removed from the journey; its catalogue entry remains available. Equipment has explicit T-series labels and separate foreground bays. Camera framing and card arrival share the same eased progress.
+
+The shared header now links Products, About us, Resources (corporate profile, product catalogue, ASTM case studies), Ask our experts, Contact us and the Nanolite app page. The owner-supplied corporate profile and product catalogue PDFs are served unmodified. The app page shows iOS and Android availability; store buttons remain disabled until actual store links are supplied. Expert inquiries prepare a reviewed email draft using the existing email pattern; there is no delivery backend.
+
+The ASTM feature changes hourly among concrete-related chapters of the official 125th Anniversary Case Study Compilation. Links go to the original publisher PDF with page anchors; the site does not republish standards or imply that these are Nanolite product reports. An open page refreshes its feature at most 30 seconds after the hour changes. External PDF availability and individual PDF viewers' page-anchor support remain outside this site.

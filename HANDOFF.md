@@ -1,3 +1,4 @@
+> Latest refinement: nighttime world, longer arrival holds, progressive construction, permanent crane, round wet drainage tunnel, and revised shared navigation. Hybrid-wall camera detour removed. App store URLs are pending; expert form prepares email drafts. Owner documents are connected unmodified.
 > Current implementation (10 October 2026): continuous interactive 3D camera travel has replaced the rejected still-film preview. Reference production details below are targets, not a claim of exact photoreal equivalence. Current UI removes people and auxiliary scene controls. See README.md for validation and limits.
 
 # Nanolite homepage — complete scene and camera handoff
