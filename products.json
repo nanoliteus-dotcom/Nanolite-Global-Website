@@ -1,192 +1,617 @@
 {
   "clc": {
     "id": "clc",
-    "name": "Nanolite CLC Blocks",
+    "name": "Nanolite CLC Blocks®",
     "scene": 4,
-    "description": "Build lighter walls with Cellular Lightweight Concrete. Available in project-specific sizes and densities, Nanolite CLC blocks are designed for wall infill within an engineered structural frame.",
+    "description": "Nanolite CLC Blocks are premium lightweight aerated concrete blocks engineered to deliver exceptional structural performance while reducing the overall weight of a building. Manufactured using advanced Cellular Lightweight Concrete (CLC) technology, these blocks provide excellent thermal insulation, sound insulation, fire resistance, and dimensional accuracy, making them an ideal alternative to conventional clay bricks and concrete masonry units.",
     "flow": "quote",
     "features": [],
-    "image": "assets/products/clc.webp",
+    "image": "assets/original/pdf-10-407.png",
     "applications": [
       "Wall infill",
       "Partition walls",
       "Residential and commercial buildings"
-    ]
+    ],
+    "slug": "nanoliteclcblocks",
+    "subtitle": "Cellular lightweight concrete for modern masonry",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Residential Buildings",
+          "Commercial Buildings",
+          "Industrial Facilities",
+          "Boundary Walls",
+          "Partition Walls",
+          "High-Rise Buildings",
+          "Schools & Educational Facilities",
+          "Hospitals & Healthcare Projects",
+          "Warehouses & Industrial Sheds",
+          "Infrastructure Projects"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Available Sizes",
+        "list": [
+          "4 × 8 × 16 Inches",
+          "6 × 8 × 16 Inches",
+          "8 × 8 × 16 Inches",
+          "Custom dimensions are available upon request"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Storage & Handling",
+        "list": [],
+        "text": "Store Nanolite CLC Blocks on a clean, level surface and protect them from excessive moisture before installation. Blocks should remain securely stacked on pallets and handled carefully during loading, unloading, and transportation to prevent edge damage. Proper storage helps maintain their dimensional accuracy and installation quality until they are ready for use."
+      },
+      {
+        "title": "Packaging & Delivery",
+        "list": [],
+        "text": "Nanolite CLC Blocks are available for individual purchases, palletized orders, full truckloads, and export container shipments. Every order is securely packaged to minimize transportation damage and ensure safe delivery to construction sites. Delivery schedules are coordinated according to project requirements and order quantities."
+      }
+    ],
+    "price": "PKR 390 / piece"
   },
   "panels": {
     "id": "panels",
-    "name": "Nano Precast Panels",
+    "name": "Nanolite Precast Panels",
     "scene": 9,
-    "description": "Factory-made concrete panels for planned installation. Coordinate panel dimensions, lifting details and connections with the Nanolite technical team.",
+    "description": "Nanolite Precast Panels (PCP) are advanced lightweight concrete wall panels engineered to deliver faster construction, superior thermal insulation, and long-term durability. Manufactured using Nanolite Cellular Lightweight Concrete (CLC) technology, these precision-cast panels provide a modern alternative to conventional masonry and cast-in-place concrete, reducing construction time while maintaining exceptional performance.",
     "flow": "quote",
     "features": [],
-    "image": "assets/products/panels.webp",
+    "image": "assets/original/pdf-10-176.png",
     "applications": [
       "Planned precast installation",
       "Project-specific panel assemblies"
-    ]
+    ],
+    "slug": "precastpanels",
+    "subtitle": "Factory-made lightweight wall panels",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Residential Buildings",
+          "Commercial Buildings",
+          "Industrial Facilities",
+          "Boundary Walls",
+          "Partition Walls",
+          "Warehouses",
+          "Schools & Universities",
+          "Hospitals",
+          "Hotels",
+          "Modular & Prefabricated Construction"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Available Options",
+        "list": [
+          "Solid Wall Panels",
+          "Insulated Wall Panels",
+          "Internal Partition Panels",
+          "External Wall Panels",
+          "Custom Dimensions",
+          "Project-Specific Panel Designs",
+          "Custom dimensions are available upon request"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Storage & Handling",
+        "list": [],
+        "text": "Precast panels should be stored on a flat, stable surface using appropriate supports to prevent bending or damage. Panels should be lifted using approved lifting points and handled carefully during transportation and installation. Proper storage and handling help maintain dimensional accuracy and surface quality before installation."
+      },
+      {
+        "title": "Packaging & Delivery",
+        "list": [],
+        "text": "Nanolite Precast Panels are securely packaged for safe transportation to construction sites. Depending on project requirements, panels are supplied individually, palletized, or loaded directly onto trucks or shipping containers for domestic and international delivery. Delivery schedules are coordinated to match project timelines and installation sequences."
+      }
+    ],
+    "price": "Price on request"
   },
   "tiles": {
     "id": "tiles",
-    "name": "Nano Insulated Roof Tiles",
+    "name": "Nanolite Insulated Roof Tiles",
     "scene": 11,
-    "description": "A lightweight roof insulation system with a durable mineral finish. Choose the tile build-up and installation detail to suit your roof.",
+    "description": "Nanolite Insulated Roof Tiles are advanced lightweight roofing solutions designed to improve thermal efficiency while reducing the structural load on buildings. Manufactured using Nanolite Cellular Lightweight Concrete (CLC) technology, these roof tiles help maintain comfortable indoor temperatures, reduce heat transfer, and contribute to lower energy consumption throughout the year.",
     "flow": "quote",
     "features": [],
-    "image": "assets/products/tiles.webp",
+    "image": "assets/original/pdf-10-181.png",
     "applications": [
       "Roof insulation",
       "Residential roofs",
       "Commercial roofs"
-    ]
+    ],
+    "slug": "insulatedrooftiles",
+    "subtitle": "Lightweight roofing and thermal insulation",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Residential Homes",
+          "Commercial Buildings",
+          "Industrial Facilities",
+          "Villas & Farmhouses",
+          "Schools & Universities",
+          "Hospitals",
+          "Warehouses",
+          "Office Buildings",
+          "Roof Insulation Projects",
+          "Renovation & Retrofit Projects"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Available Options",
+        "list": [
+          "Standard Roof Tiles",
+          "Custom Dimensions",
+          "Project-Specific Designs",
+          "Bulk Supply for Commercial Projects",
+          "Custom dimensions are available upon request"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Storage & Handling",
+        "list": [],
+        "text": "Roof tiles should be stored on a clean, level surface and protected from impact during transportation and handling. Stacking should follow recommended guidelines to prevent edge damage before installation. Proper storage helps preserve product quality and ensures safe installation on-site."
+      },
+      {
+        "title": "Supply & Delivery",
+        "list": [],
+        "text": "Nanolite Insulated Roof Tiles are available for individual projects, bulk commercial orders, and export shipments. Products are securely packaged and prepared for safe transportation, with scheduled deliveries available to meet project timelines and construction requirements."
+      }
+    ],
+    "price": "Price on request"
   },
   "hybrid": {
     "id": "hybrid",
     "name": "Nano Hybrid Wall System",
     "scene": 14,
-    "description": "A wall system combining masonry, CLC infill and concrete elements. Explore the components with our team.",
+    "description": "Nanolite Hybrid Walls® are an innovative wall construction system designed to simplify modern building while improving structural efficiency, thermal insulation, and construction speed. The system consists of specially designed wall formwork that is filled with Nanolite Cellular Lightweight Concrete (CLC), creating a solid, lightweight, and highly insulated wall with a smooth finished surface.",
     "flow": "quote",
     "features": [
       "Masonry and CLC infill",
       "Concrete frame and bond beam",
       "Explore each wall layer"
     ],
-    "image": "assets/products/hybrid.webp",
+    "image": "assets/original/pdf-10-174.png",
     "applications": [
       "Residential construction",
       "Commercial construction",
       "Partition walls"
-    ]
+    ],
+    "slug": "nanolitehybridwalls",
+    "subtitle": "An insulated wall construction system",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Residential Housing",
+          "Commercial Buildings",
+          "Villas & Farmhouses",
+          "High-Rise Developments",
+          "Schools & Universities",
+          "Hospitals",
+          "Industrial Buildings",
+          "Boundary Walls",
+          "Warehouses",
+          "Government Housing Projects"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Available Options",
+        "list": [
+          "Internal Walls",
+          "External Walls",
+          "Load-Bearing Wall Systems",
+          "Non-Load-Bearing Wall Systems",
+          "Custom Wall Thicknesses",
+          "Project-Specific Designs",
+          "Custom dimensions are available upon request"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Project Supply & Installation",
+        "list": [],
+        "text": "Nanolite Hybrid Walls are supplied as a complete construction system, including technical guidance for installation and CLC pouring. Depending on project requirements, our team can provide material supply, engineering consultation, and installation support to help ensure efficient project execution and consistent construction quality."
+      },
+      {
+        "title": "Why Choose Nanolite Hybrid Walls?",
+        "list": [],
+        "text": "Nanolite Hybrid Walls provide a faster, cleaner, and more efficient alternative to conventional brick masonry. By combining lightweight concrete with an innovative wall system, they reduce structural dead loads, improve thermal and acoustic insulation, minimize construction time, and deliver a smooth finished surface that requires little to no plaster, helping reduce both labor and finishing costs."
+      }
+    ],
+    "price": "Price on request"
   },
   "permeable": {
     "id": "permeable",
-    "name": "Permeable Concrete",
+    "name": "Nanolite Permeable Concrete®",
     "scene": 17,
-    "description": "Porous concrete for water-permeable paving applications. Project design and drainage details require technical review.",
+    "description": "Nanolite Porous Concrete is an advanced permeable concrete system designed to allow water to pass naturally through its surface, reducing runoff and promoting groundwater recharge. Engineered for modern infrastructure, it provides an effective drainage solution while maintaining the durability and reliability required for residential, commercial, and public developments.",
     "flow": "quote",
     "features": [
       "Water-permeable paving",
       "Porous concrete surface",
       "Drainage assembly design"
     ],
-    "image": "assets/products/permeable.webp",
+    "image": "assets/original/pdf-10-178.png",
     "applications": [
       "Parking areas",
       "Footpaths",
       "Driveways"
-    ]
+    ],
+    "slug": "nanolitepermeableconcrete",
+    "subtitle": "A surface designed to let water pass through",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Parking Lots",
+          "Roads & Streets",
+          "Driveways",
+          "Footpaths & Sidewalks",
+          "Bicycle Lanes",
+          "Parks & Landscaped Areas",
+          "Commercial Developments",
+          "Residential Communities",
+          "Industrial Facilities",
+          "Public Spaces"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Available Options",
+        "list": [
+          "Ready-to-Pour Mix",
+          "On-Site Installation",
+          "Custom Mix Designs",
+          "Project-Specific Solutions",
+          "Custom dimensions are available upon request"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Storage & Handling",
+        "list": [],
+        "text": "All raw materials should be stored in a clean and dry environment prior to production. During installation, the concrete should be placed and cured in accordance with recommended construction practices to ensure optimum permeability, durability, and long-term performance."
+      },
+      {
+        "title": "Supply & Delivery",
+        "list": [],
+        "text": "Nanolite supplies Porous Concrete for projects ranging from residential driveways to large commercial and infrastructure developments. Flexible delivery options, scheduled dispatches, and project-based supply plans are available to meet your construction timeline."
+      }
+    ],
+    "price": "Price on request"
   },
   "readymix": {
     "id": "readymix",
-    "name": "Nano ReadyMix",
+    "name": "Nano ReadyMix®",
     "scene": 21,
-    "description": "40 kg ReadyMix bags. Pakistan material price: PKR 600 per bag (PKR 15/kg). Freight and tax are confirmed separately.",
+    "description": "Designed for consistent performance and professional-grade CLC production, Nano ReadyMix® is Nanolite's proprietary dry mix engineered for manufacturers, contractors, and construction professionals. Every bag is formulated to simplify production while delivering reliable density, improved workability, and outstanding strength.",
     "flow": "order",
     "features": [
-      "40 kg bag",
-      "Pakistan material price: PKR 600 / bag",
-      "Freight and tax confirmed separately"
+      "40 kg bags",
+      "PKR 15 per kg",
+      "For CLC production"
     ],
-    "image": "assets/products/readymix.webp",
+    "image": "assets/original/pdf-10-165.png",
     "applications": [
       "CLC blocks",
       "Roof insulation",
       "Floor screeds",
       "Void filling"
-    ]
+    ],
+    "slug": "nanoreadymix",
+    "subtitle": "Premium dry mix for cellular lightweight concrete",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Cellular Lightweight Concrete Blocks",
+          "Lightweight Concrete",
+          "Roof Insulation",
+          "Floor Screeds",
+          "Void Filling",
+          "Lightweight Structural Applications"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Compatible With",
+        "list": [
+          "Nanolite Foaming Agent",
+          "Nanolite Manufacturing Plants",
+          "Most Standard CLC Production Systems"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Compliance & Quality",
+        "list": [],
+        "text": "Nano ReadyMix® is manufactured under strict internal quality control procedures to ensure consistent performance and reliable production. Every batch is carefully inspected before packaging to maintain high manufacturing standards."
+      },
+      {
+        "title": "Storage & Shelf Life",
+        "list": [],
+        "text": "Store bags in a cool, dry environment away from moisture and direct sunlight. Keep packaging sealed until use and store on pallets for maximum protection. When stored correctly, Nano ReadyMix® maintains its quality throughout its recommended shelf life."
+      }
+    ],
+    "price": "PKR 600 / 40 kg bag"
   },
   "agent": {
     "id": "agent",
-    "name": "Nanolite Ready Foaming Agent",
+    "name": "Nanolite Ready Foaming Agent®",
     "scene": 22,
-    "description": "Create stable foam for Cellular Lightweight Concrete production. Supplied in industrial drums, with mixing and dilution guidance from our technical team.",
+    "description": "Nanolite Ready Foaming Agent is a premium foaming solution specifically engineered for the production of high-quality Cellular Lightweight Concrete (CLC). Developed to produce stable, uniform, and long-lasting foam, it ensures consistent density, improved workability, and reliable performance throughout the manufacturing process.",
     "flow": "order",
     "features": [],
-    "image": "assets/products/agent.webp",
+    "image": "assets/original/pdf-10-166.png",
     "applications": [
       "CLC production",
       "Roof insulation",
       "Lightweight screeds"
-    ]
+    ],
+    "slug": "foamingagent",
+    "subtitle": "A foaming solution for cellular lightweight concrete",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Cellular Lightweight Concrete (CLC)",
+          "Roof Insulation",
+          "Lightweight Floor Screeds",
+          "Void Filling",
+          "Lightweight Structural Concrete",
+          "Thermal Insulation",
+          "Precast Lightweight Products"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Packaging Options",
+        "list": [
+          "20 L Container",
+          "50 L Container",
+          "200 L Industrial Drum"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Storage & Shelf Life",
+        "list": [],
+        "text": "Nanolite Ready Foaming Agent in its original sealed container in a cool, dry, and well-ventilated area away from direct sunlight, excessive heat, and freezing conditions. Keep the container tightly closed when not in use to prevent contamination. When stored under recommended conditions, the product maintains its quality and performance throughout its specified shelf life. Always follow Nanolite's storage and handling recommendations to ensure optimum product performance."
+      }
+    ],
+    "price": "PKR 1,000 / litre"
   },
   "t500": {
     "id": "t500",
     "name": "T-500 Plant",
     "scene": 23,
-    "description": "A compact portable plant for businesses entering lightweight concrete manufacturing.",
+    "description": "The T-500 is designed for startups and small businesses looking to enter the lightweight concrete industry with a modest investment. It is compact, easy to operate, and ideal for producing blocks for local construction projects or internal company use.",
     "flow": "plant",
     "features": [
       "Compact portable configuration",
       "Explore the mixing equipment",
       "Discuss utilities and site readiness"
     ],
-    "image": "assets/products/t500.webp"
+    "image": "assets/original/pdf-10-193.png",
+    "slug": "t500",
+    "subtitle": "Start your production journey",
+    "details": [
+      {
+        "title": "Planning your production line",
+        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "list": []
+      },
+      {
+        "title": "Installation & commissioning",
+        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "list": []
+      },
+      {
+        "title": "Project requirements",
+        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "list": []
+      }
+    ],
+    "price": "Price on request"
   },
   "t1000": {
     "id": "t1000",
     "name": "T-1000 Plant",
     "scene": 24,
-    "description": "A portable white and blue plant for growing manufacturers.",
+    "description": "The T-1000 is built for businesses requiring greater production capacity while maintaining excellent product consistency. It offers improved workflow, higher efficiency, and increased daily output, making it suitable for growing manufacturers and commercial construction companies.",
     "flow": "plant",
     "features": [
       "Portable white and blue configuration",
       "Explore chassis, mixer and controls",
       "Request the approved equipment specification"
     ],
-    "image": "assets/products/t1000.webp"
+    "image": "assets/original/pdf-10-194.png",
+    "slug": "t1000",
+    "subtitle": "A portable plant for growing manufacturers",
+    "details": [
+      {
+        "title": "Planning your production line",
+        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "list": []
+      },
+      {
+        "title": "Installation & commissioning",
+        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "list": []
+      },
+      {
+        "title": "Project requirements",
+        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "list": []
+      }
+    ],
+    "price": "Price on request"
   },
   "t5000": {
     "id": "t5000",
     "name": "T-5000 Franchise",
     "scene": 25,
-    "description": "A larger portable plant for businesses entering industrial production.",
+    "description": "The T-5000 is the first industrial-scale plant within the Nanolite Franchise Program. It is designed for businesses ready to establish a dedicated manufacturing facility capable of supplying contractors, developers, and regional distributors.",
     "flow": "plant",
     "features": [
       "Larger portable configuration",
       "Explore the mixing and control systems",
       "Discuss your manufacturing requirements"
     ],
-    "image": "assets/products/t5000.webp"
+    "image": "assets/original/pdf-10-195.png",
+    "slug": "t5000",
+    "subtitle": "Establish your manufacturing operation",
+    "details": [
+      {
+        "title": "Planning your production line",
+        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "list": []
+      },
+      {
+        "title": "Installation & commissioning",
+        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "list": []
+      },
+      {
+        "title": "Project requirements",
+        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "list": []
+      }
+    ],
+    "price": "Price on request"
   },
   "t10000": {
     "id": "t10000",
     "name": "T-10000 Franchise",
     "scene": 26,
-    "description": "An installed manufacturing plant with mixing, material storage and control systems.",
+    "description": "The T-10000 is engineered for manufacturers supplying large residential developments, commercial projects, and government housing schemes. Its advanced production system enables high- volume manufacturing while maintaining consistent quality and operational efficiency.",
     "flow": "plant",
     "features": [
       "Installed mixing and material storage",
       "Access platforms and control systems",
       "Discuss your production site layout"
     ],
-    "image": "assets/products/t10000.webp"
+    "image": "assets/original/pdf-10-196.png",
+    "slug": "t10000",
+    "subtitle": "Production for larger operations",
+    "details": [
+      {
+        "title": "Planning your production line",
+        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "list": []
+      },
+      {
+        "title": "Installation & commissioning",
+        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "list": []
+      },
+      {
+        "title": "Project requirements",
+        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "list": []
+      }
+    ],
+    "price": "Price on request"
   },
   "t15000": {
     "id": "t15000",
     "name": "T-15000 Franchise",
     "scene": 27,
-    "description": "A flagship manufacturing system for businesses planning an integrated production facility.",
+    "description": "The T-15000 is Nanolite's flagship manufacturing solution, developed for major investors and international partners seeking maximum production capacity. Designed for continuous industrial operation, this plant supports large-scale projects, exports, and nationwide distribution.",
     "flow": "plant",
     "features": [
       "Integrated manufacturing facility",
       "Mixing, storage and material handling",
       "Discuss equipment and site planning"
     ],
-    "image": "assets/products/t15000.webp"
+    "image": "assets/original/pdf-10-198.png",
+    "slug": "t15000",
+    "subtitle": "Our flagship manufacturing solution",
+    "details": [
+      {
+        "title": "Planning your production line",
+        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "list": []
+      },
+      {
+        "title": "Installation & commissioning",
+        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "list": []
+      },
+      {
+        "title": "Project requirements",
+        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "list": []
+      }
+    ],
+    "price": "Price on request"
   },
   "pouring": {
     "id": "pouring",
     "name": "Nanolite CLC Pouring",
     "scene": 32,
-    "description": "On-site production and placement of Cellular Lightweight Concrete for roof insulation, floor screeds and void filling. Coordinate density, access and pumping requirements with our team.",
+    "description": "Nanolite CLC Pouring is a specialized on-site concrete placement service designed for projects requiring lightweight, thermally efficient, and precisely controlled Cellular Lightweight Concrete (CLC). Using Nano ReadyMix®, Nanolite Ready Foaming Agent, and advanced mixing equipment, our experienced team produces fresh CLC directly on-site and pumps it into the required area with speed and accuracy.",
     "flow": "quote",
     "features": [],
-    "image": "assets/products/pouring.webp",
+    "image": "assets/original/pdf-10-182.png",
     "applications": [
       "Roof insulation",
       "Floor screeds",
       "Void filling",
       "Pipeline backfilling"
-    ]
+    ],
+    "slug": "clcpouring",
+    "subtitle": "On-site lightweight concrete placement",
+    "details": [
+      {
+        "title": "Applications",
+        "list": [
+          "Roof Insulation",
+          "Floor Screeds",
+          "Void Filling",
+          "Sunken Slabs",
+          "Lightweight Structural Concrete",
+          "Pipeline Backfilling",
+          "Bridge Approaches",
+          "Road Embankments",
+          "Thermal Insulation",
+          "Infrastructure Projects"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Available Options",
+        "list": [
+          "On-Site CLC Production",
+          "CLC Pumping & Placement",
+          "Roof Insulation Solutions",
+          "Lightweight Floor Filling",
+          "Custom Density Mixes",
+          "Project-Specific Pouring Services",
+          "Custom dimensions are available upon request"
+        ],
+        "text": ""
+      },
+      {
+        "title": "Site Requirements",
+        "list": [],
+        "text": "Before pouring begins, the work area should be prepared and accessible for equipment and material delivery. Utilities, formwork, and project specifications should be finalized to ensure an efficient pouring process. Our team will coordinate with your site engineers to achieve the required density, volume, and placement quality."
+      },
+      {
+        "title": "Project Planning & Delivery",
+        "list": [],
+        "text": "Nanolite provides complete project planning, scheduling, material supply, and on-site technical support for CLC pouring services. From small residential applications to large commercial and infrastructure developments, every project is planned to meet your construction schedule and engineering requirements."
+      }
+    ],
+    "price": "Price on request"
   }
 }

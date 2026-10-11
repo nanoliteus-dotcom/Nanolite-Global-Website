@@ -1,0 +1,290 @@
+[
+  {
+    "title": "Automation & Control Engineer — CLC Production Plants",
+    "team": "Plant engineering",
+    "description": "Develop and commission controls for batching, mixing, pumping and foaming equipment.",
+    "responsibilities": [
+      "Program PLC sequences, interlocks, alarms and HMI screens for automated CLC production.",
+      "Integrate load cells, level sensors, flow meters, motors and variable-frequency drives.",
+      "Prepare I/O lists, control-panel drawings, test procedures and operator instructions.",
+      "Troubleshoot plant faults and support commissioning alongside fabrication and production teams."
+    ],
+    "qualification": "Electrical, electronics or mechatronics degree; a relevant technical diploma with strong commissioning experience is also suitable.",
+    "experience": "3+ years in industrial automation; hands-on PLC commissioning is essential.",
+    "skills": [
+      "PLC logic and HMI development",
+      "Motor control, instrumentation and electrical schematic reading",
+      "Safe isolation, fault finding and commissioning documentation"
+    ],
+    "tools": [
+      "Siemens TIA Portal / WinCC or equivalent PLC/HMI platform",
+      "AutoCAD Electrical or EPLAN",
+      "VFD configuration and industrial communications such as Modbus"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Mechanical Design Engineer — Mixing & Batching Equipment",
+    "team": "Plant engineering",
+    "description": "Design manufacturable mixers, frames, tanks, conveyors and plant assemblies.",
+    "responsibilities": [
+      "Create fabrication drawings, assemblies and bills of materials.",
+      "Select motors, gearboxes, bearings and drive components for mixing equipment.",
+      "Check clearances, maintenance access, weld details and fabrication tolerances.",
+      "Work with the workshop to resolve fit-up issues and update drawings after trials."
+    ],
+    "qualification": "Mechanical engineering degree or mechanical design diploma with an equipment-design portfolio.",
+    "experience": "3+ years designing fabricated industrial machinery.",
+    "skills": [
+      "3D assemblies and production drawings",
+      "Steel fabrication, shaft and bearing selection",
+      "BOM preparation and design revision control"
+    ],
+    "tools": [
+      "SolidWorks or Autodesk Inventor",
+      "AutoCAD",
+      "Excel for calculations and BOMs"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "MIG / MAG Welder — Plant Frames & Assemblies",
+    "team": "Workshop & fabrication",
+    "description": "Fabricate welded steel structures and assemblies for Nanolite production equipment.",
+    "responsibilities": [
+      "Read fabrication drawings and prepare steel joints.",
+      "Set welding parameters and produce consistent MIG/MAG welds.",
+      "Control distortion, inspect finished welds and correct defects.",
+      "Maintain welding equipment and follow workshop PPE and hot-work procedures."
+    ],
+    "qualification": "Welding trade certificate preferred; practical experience and a successful welding test can substitute. A high-school diploma is not mandatory.",
+    "experience": "2+ years welding steel frames, machinery or industrial assemblies.",
+    "skills": [
+      "Drawing reading and dimensional checks",
+      "Joint preparation and weld defect recognition",
+      "Safe handling of grinders, gas cylinders and welding equipment"
+    ],
+    "tools": [
+      "MIG/MAG welding sets",
+      "Grinders, clamps and measuring tools",
+      "Workshop drawings and weld procedures"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "TIG Welder — Stainless Tanks & Pipework",
+    "team": "Workshop & fabrication",
+    "description": "Produce clean stainless-steel tank, pipe and fitting welds for process equipment.",
+    "responsibilities": [
+      "Prepare and fit stainless components without contamination.",
+      "Perform TIG welds with appropriate shielding and purging.",
+      "Check joints for finish, alignment and leaks.",
+      "Record completed work and coordinate repairs with quality inspection."
+    ],
+    "qualification": "TIG welding trade training preferred; demonstrated skill in a practical test is acceptable without a formal diploma.",
+    "experience": "2+ years TIG welding stainless sheet, tanks or pipework.",
+    "skills": [
+      "Thin-wall stainless welding",
+      "Back purging and heat control",
+      "Fit-up accuracy and leak-check preparation"
+    ],
+    "tools": [
+      "TIG welding sets",
+      "Purging and gas-flow equipment",
+      "Pipe clamps and inspection gauges"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Fabrication Fitter — CLC Plant Assembly",
+    "team": "Workshop & fabrication",
+    "description": "Fit and assemble mechanical equipment from production drawings.",
+    "responsibilities": [
+      "Mark, cut, drill and fit structural steel and fabricated parts.",
+      "Align shafts, motors, gearboxes and bearings.",
+      "Assemble guards, platforms, tanks and bolted plant sections.",
+      "Check dimensions and report drawing or component mismatches."
+    ],
+    "qualification": "Mechanical fitting trade certificate or equivalent workshop experience. Formal schooling is not essential if practical skills are demonstrated.",
+    "experience": "2+ years fitting fabricated machinery or industrial structures.",
+    "skills": [
+      "Mechanical drawing reading",
+      "Alignment, leveling and precision measurement",
+      "Safe lifting and assembly practices"
+    ],
+    "tools": [
+      "Drill press, grinders and hand tools",
+      "Vernier calipers, levels and alignment tools",
+      "Mechanical assembly drawings"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Electromechanical Maintenance Technician — Production Equipment",
+    "team": "Plant engineering",
+    "description": "Keep mixers, pumps, drives and production machinery reliable.",
+    "responsibilities": [
+      "Perform planned maintenance and diagnose mechanical or electrical faults.",
+      "Inspect bearings, belts, couplings, motors and control components.",
+      "Maintain breakdown records and recommend critical spare parts.",
+      "Isolate machinery safely and verify operation after repairs."
+    ],
+    "qualification": "Electrical or mechanical technical diploma, trade certificate or equivalent industrial maintenance experience.",
+    "experience": "3+ years maintaining factory machinery; motor-control fault finding preferred.",
+    "skills": [
+      "Mechanical repair and basic electrical diagnostics",
+      "Preventive maintenance planning",
+      "Lockout procedures and maintenance records"
+    ],
+    "tools": [
+      "Multimeter and insulation tester",
+      "Mechanical maintenance tools",
+      "Excel or a maintenance management system"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Production Supervisor — CLC Mixing & Block Manufacturing",
+    "team": "Factory operations",
+    "description": "Coordinate daily CLC batches, moulding, curing and production quality.",
+    "responsibilities": [
+      "Plan shift work around batching, mould availability and curing requirements.",
+      "Check mix records, batch consistency and finished block dimensions.",
+      "Train operators and coordinate material supply and equipment readiness.",
+      "Record output, rejects and downtime; escalate safety and quality issues."
+    ],
+    "qualification": "Production or mechanical technical diploma preferred; proven CLC or concrete production supervision may substitute.",
+    "experience": "3+ years in concrete or process manufacturing, including shift supervision.",
+    "skills": [
+      "Batch record control and material coordination",
+      "People supervision and practical quality checks",
+      "Production reporting and safe operating procedures"
+    ],
+    "tools": [
+      "Excel",
+      "Batch sheets and production logs",
+      "Basic plant HMI operation"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Factory Operations Manager — Fabrication & CLC Plants",
+    "team": "Factory operations",
+    "description": "Manage workshop and production delivery, capacity, maintenance and quality.",
+    "responsibilities": [
+      "Schedule fabrication and manufacturing work against delivery commitments.",
+      "Coordinate supervisors, maintenance, materials and quality inspection.",
+      "Track capacity, rework, downtime and production costs.",
+      "Set practical safety standards and improve workshop flow and equipment availability."
+    ],
+    "qualification": "Engineering or manufacturing qualification preferred; substantial factory leadership experience may substitute.",
+    "experience": "5+ years in industrial manufacturing, including at least 2 years managing production teams.",
+    "skills": [
+      "Production planning and capacity management",
+      "Workshop leadership and continuous improvement",
+      "Inventory coordination and operational cost control"
+    ],
+    "tools": [
+      "Excel",
+      "ERP or production-planning software",
+      "Maintenance and quality reporting systems"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Manufacturing Project Manager — Plant Build & Commissioning",
+    "team": "Project delivery & procurement",
+    "description": "Deliver CLC equipment projects from approved drawings through build, testing and handover.",
+    "responsibilities": [
+      "Build project schedules, budgets and material delivery plans.",
+      "Coordinate design, procurement, fabrication and factory acceptance testing.",
+      "Track technical changes, risks and supplier delays.",
+      "Arrange commissioning and prepare handover documents and operator training."
+    ],
+    "qualification": "Mechanical, electrical or industrial engineering qualification, or equivalent machinery-project delivery experience.",
+    "experience": "4+ years delivering industrial machinery or plant projects.",
+    "skills": [
+      "Project scheduling and budget tracking",
+      "Technical coordination and change control",
+      "Supplier follow-up and commissioning planning"
+    ],
+    "tools": [
+      "Microsoft Project or Primavera P6",
+      "Excel",
+      "CAD drawing review and document-control tools"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Procurement Specialist — Industrial Components & Steel",
+    "team": "Project delivery & procurement",
+    "description": "Source the components and materials required to fabricate and maintain CLC production equipment.",
+    "responsibilities": [
+      "Purchase steel, motors, gearboxes, pumps, bearings and control components to approved specifications.",
+      "Compare technical quotations, lead times and total delivered costs.",
+      "Track purchase orders and coordinate incoming inspections.",
+      "Maintain supplier records and resolve missing, incorrect or delayed items."
+    ],
+    "qualification": "Relevant diploma or degree preferred; proven technical purchasing experience is acceptable.",
+    "experience": "3+ years buying industrial materials, machinery components or electrical controls.",
+    "skills": [
+      "BOM and specification interpretation",
+      "Supplier negotiation and delivery follow-up",
+      "Purchase documentation and inventory awareness"
+    ],
+    "tools": [
+      "Excel",
+      "ERP or procurement software",
+      "Engineering BOMs and supplier catalogues"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Quality Inspector — Fabrication & Plant Assembly",
+    "team": "Workshop & fabrication",
+    "description": "Verify fabricated parts and assembled plant equipment before dispatch.",
+    "responsibilities": [
+      "Check dimensions, fit-up, weld finish and assembly against drawings.",
+      "Document inspection results and identify non-conforming parts.",
+      "Witness functional checks and support factory acceptance testing.",
+      "Verify corrective work and maintain traceable inspection records."
+    ],
+    "qualification": "Mechanical or manufacturing diploma preferred; experienced fabrication inspectors may qualify without a degree. Welding inspection training is an advantage.",
+    "experience": "2+ years inspecting steel fabrication or machinery assemblies.",
+    "skills": [
+      "Dimensional inspection and drawing interpretation",
+      "Basic weld defect recognition",
+      "Inspection records and corrective-action follow-up"
+    ],
+    "tools": [
+      "Vernier calipers, micrometers and weld gauges",
+      "Excel",
+      "Inspection checklists and fabrication drawings"
+    ],
+    "level": "professional"
+  },
+  {
+    "title": "Production & Workshop Helper — Entry Level",
+    "team": "Factory operations",
+    "description": "Support trained operators and fabricators with materials preparation and workshop housekeeping.",
+    "responsibilities": [
+      "Prepare and move materials using approved handling methods.",
+      "Assist with mould cleaning, packing and supervised production tasks.",
+      "Keep work areas and tools organised.",
+      "Follow PPE instructions and report hazards or damaged equipment."
+    ],
+    "qualification": "No degree or high-school diploma required. Basic reading and counting are helpful; task and safety training will be provided.",
+    "experience": "No previous experience required; reliable attendance and willingness to learn are essential.",
+    "skills": [
+      "Ability to follow instructions and work with a team",
+      "Careful material handling",
+      "Willingness to complete practical safety training"
+    ],
+    "tools": [
+      "Basic hand tools under supervision",
+      "Material checklists",
+      "PPE and approved handling equipment"
+    ],
+    "level": "early"
+  }
+]

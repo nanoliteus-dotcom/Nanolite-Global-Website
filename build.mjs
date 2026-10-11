@@ -1,16 +1,15 @@
-import {mkdir,copyFile,cp,readFile,stat,rm} from 'node:fs/promises';
+import {mkdir,copyFile,readFile,readdir,stat,rm} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 const root=fileURLToPath(new URL('.',import.meta.url)),dist=path.join(root,'dist');
-const files=['index.html','products.html','product.html','request.html','contact.html','about.html','documents.html','app.html','experts.html','experts.js','studies.html','studies.js','studies.json','site.css','site.js','world.js','product.js','request.js','products.json','scene-manifest.json','_headers'];
-const scenes=JSON.parse(await readFile(path.join(root,'scene-manifest.json'),'utf8'));
-if(scenes.length!==32)throw Error('The website requires all 32 scene assets.');
-for(const scene of scenes){const asset=path.resolve(root,scene.image);if(!asset.startsWith(root)||!(await stat(asset)).isFile())throw Error('Scene asset missing: '+scene.image)}
-if((await stat(path.join(root,'assets/nanolite-catalogue.pdf'))).size>=25000000)throw Error('Catalogue exceeds the hosting asset limit');
+const pages=(await readdir(root)).filter(file=>file.endsWith('.html'));
+const files=[...pages,'site.css','site.js','product.js','request.js','experts.js','careers.js','studies.js','studies.json','products.json','career-roles.json','_headers','_redirects'];
+const assets=new Set(['assets/logo.png','assets/manrope-OFL.txt']);
+for(const file of pages){const html=await readFile(path.join(root,file),'utf8');if(/world\.js|<canvas|<video|class="scene\b/.test(html))throw Error('Animation remains in '+file);for(const match of html.matchAll(/(?:src|href|data)="(assets\/[^"?#]+)(?:[?#][^"]*)?"/g))assets.add(match[1]);}
+const css=await readFile(path.join(root,'site.css'),'utf8');for(const match of css.matchAll(/url\(['"]?(assets\/[^)'"?#]+)/g))assets.add(match[1]);
+for(const study of JSON.parse(await readFile(path.join(root,'studies.json'),'utf8')))if(study.image?.startsWith('assets/'))assets.add(study.image);
 if(path.dirname(dist)!==path.resolve(root))throw Error('Invalid build directory');
-await rm(dist,{recursive:true,force:true});
-await mkdir(dist,{recursive:true});
+await rm(dist,{recursive:true,force:true});await mkdir(dist,{recursive:true});
 for(const file of files)await copyFile(path.join(root,file),path.join(dist,file));
-await cp(path.join(root,'assets'),path.join(dist,'assets'),{recursive:true,filter:source=>path.basename(source)!=='film'});
-await cp(path.join(root,'vendor'),path.join(dist,'vendor'),{recursive:true});
-console.log('Built ten pages and all 32 scene assets to dist.');
+for(const asset of assets){const source=path.resolve(root,asset);if(!source.startsWith(root)||!(await stat(source)).isFile())throw Error('Missing asset: '+asset);await mkdir(path.dirname(path.join(dist,asset)),{recursive:true});await copyFile(source,path.join(dist,asset));}
+console.log(`Built ${pages.length} static pages and ${assets.size} referenced assets. No 3D runtime or animation assets shipped.`);
