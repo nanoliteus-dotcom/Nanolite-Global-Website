@@ -40,13 +40,13 @@ Reduced motion, asset failures and JavaScript-disabled visits retain an accessib
 
 `npm test` runs `tests/journey.cjs` using Playwright and installed Chrome. The build remains dependency-free; Playwright is needed only for browser checks. Screenshots are written to ignored `test-artifacts/`.
 
-Checks cover reload, continuous forward/reverse camera travel, all 30 scenes, 11 compact cards, copy line breaks, ten responsive pages, mobile canvas/menu, pricing, safe request review, reduced motion, no-JavaScript and asset-failure fallbacks, block/tile extraction and crane clearance. Physical mobile GPU performance is not verified.
+Checks cover reload, continuous forward/reverse camera travel, all 32 scenes, 12 compact cards, copy line breaks, ten responsive pages, mobile canvas/menu, pricing, safe request review, reduced motion, no-JavaScript and asset-failure fallbacks, block/tile extraction and crane clearance. Physical mobile GPU performance is not verified.
 
 `HANDOFF.md` retains the reference production brief. The primary Nanolite Group domain remains unchanged.
 
 ## October refinement
 
-The nighttime journey has longer camera holds, progressive clipped construction, a permanent crane and suspended panel, denser optimized trees, continuous terrain, marked wet roads, reflectors, rain streaks and a round lit drainage tunnel. The hybrid wall detour was removed from the journey; its catalogue entry remains available. Equipment has explicit T-series labels and separate foreground bays. Camera framing and card arrival share the same eased progress.
+The nighttime journey has longer camera holds, progressive clipped construction, a permanent crane and suspended panel, denser optimized trees, continuous terrain, marked wet roads, reflectors, rain streaks and a round lit drainage tunnel. The hybrid wall interior and layer cross-section are included in the journey. Equipment has explicit T-series labels and separate foreground bays. Camera framing and card arrival share the same eased progress.
 
 The shared header now links Products, About us, Resources (corporate profile, product catalogue, ASTM case studies), Ask our experts, Contact us and the Nanolite app page. The owner-supplied corporate profile and product catalogue PDFs are served unmodified. The app page shows iOS and Android availability; store buttons remain disabled until actual store links are supplied. Expert inquiries prepare a reviewed email draft using the existing email pattern; there is no delivery backend.
 
@@ -74,3 +74,19 @@ The requested 35% dead-load reduction is identified as a design target requiring
 The opening now descends from the sky before construction starts. Inspection cards fit their content, with a compact glass surface and right-side entry/exit; the drainage card keeps its bottom entry. Masonry joints are deeper and narrower units are used, roof tiles have a warmer finish than the cool precast panel, and structural highlights are translucent blue.
 
 Fifty city buildings occupy street parcels, including a western frontage. Factory views remain in the open service corridor; the regression suite samples the complete camera spline against recorded city building envelopes. Architectural glazing uses environment reflections without the transmission render pass. Shaders are prepared before the journey, desktop pixel density is capped at 1.5, shadows update up to 30 Hz during motion and 10 Hz during holds, and the canal reflection uses a 512-pixel target. Section geometry is cached on resize to avoid reading document layout on every frame. These limits reduce rendering work; frame rate still depends on device graphics and is not guaranteed. City and equipment remain procedural reconstructions, not film-quality assets.
+
+## Quiet opening and product focus
+
+The initial camera looks vertically upward; its short caption clears before a slow descent. Oversized foreground towers are moved out of the construction framing, vegetation forms road-side clusters, and tree instances are divided into cullable groups. Concrete uses a finer neutral finish, CLC pore relief is stronger, the precast panel has a dedicated fill light, and the last-floor stair geometry is removed.
+
+Product inspections ease down the environment and general light, with a camera-mounted key preserving the foreground subject. The column/beam highlight combines a translucent blue face with a stronger outline. The shaft ascent shares the ladder centreline and a neutral sky avoids panorama pinching at the zenith. Water reflections update at 20 Hz.
+
+The truck cab is rebuilt with bevelled panels, glazing, a seated driver, and complete wheel assemblies that spin and steer according to the delivery curve. Plant detail includes flanges, fasteners, gauges, canopy seams, plumbing, stair stringers and ladder cages. Aggregate bins use textured beds and loose stones instead of cone piles. These remain browser-built models; manufacturer geometry and physical-device frame-rate validation are not supplied.
+
+## Approved scene copy and intro logo
+
+All 32 scenes use the approved short copy, including the restored hybrid-wall interior and cross-section. Product links, material orders and plant enquiries retain their existing destinations and pricing. Unverified numerical savings are omitted from journey captions.
+
+`assets/nanolite-intro.png` was generated in built-in imagegen edit mode from the supplied logo reference. Prompt: Preserve the overlapping silver concrete diamonds and uppercase NANOLITE lettering; remove the LIGHT WEIGHT CONCRETE subtitle, white background and specks; retain realistic concrete texture and output a clean transparent logo.
+
+The suspended precast panel follows the supplied reference: a wide concrete wall, two open timber-framed window apertures, lifting eyes and four slings. Its inspection camera frames the full width.
