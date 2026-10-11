@@ -59,3 +59,11 @@ The opening view focuses on the construction site with centered copy and no road
 The full roof has 176 tiles; one inspection tile separates its surface, insulation and backing layers. These layer shapes are illustrative, not approved assembly dimensions. Gradual rain, centered road framing and height-based underground fog replace abrupt state changes. Road markings avoid the shaft openings. A newly proportioned flatbed is tracked during delivery.
 
 ReadyMix now has 77 grounded bags on its pallet and the foaming agent has 12 shaped drums. Portable plants share a white-and-blue base design at three scales, with direct logo branding. Installed silos carry vertical Nanolite branding; service platforms connect the stairs and a yard billboard carries the company mark. Materials and models remain browser reconstructions, not manufacturer CAD. The structural caption describes load-dependent optimization without publishing an unsupported 35% savings figure.
+
+## October 11 visual and reference update
+
+Shared navigation, footer, product pages, app availability and forms now use system typography and a restrained common presentation. Product imagery is extracted with its original alpha masks from the owner-supplied Home PDFs and Catalog P, rather than journey screenshots. The full supplied catalogue remains unchanged and is linked on Documents. The owner reconfirmed 40 kg / PKR 600 ReadyMix despite differing sizes in the artwork.
+
+The world now includes 46 surrounding buildings and a street grid, foundation banks, textured iron access covers, continuous side walls under drainage shafts, monotone cubic camera interpolation through the descent and tunnel, sill-anchored fitted windows, hollow glazed crane/truck cabs, truck lights and four cargo stacks. T500 and T1000 have one axle each; T5000 has two. Glass product panels enter and exit to the right independently of camera projection; the road panel retains its requested upward entry.
+
+The requested 35% dead-load reduction is identified as a design target requiring project engineering, not a verified universal saving. Browser geometry, procedural water and reconstructed equipment remain illustrative; this is not an offline film-quality render or manufacturer CAD. Store links and email delivery backend are still pending.

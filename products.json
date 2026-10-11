@@ -1,39 +1,43 @@
 {
   "clc": {
     "id": "clc",
-    "name": "CLC Blocks",
+    "name": "Nanolite CLC Blocks",
     "scene": 4,
-    "description": "Cellular Lightweight Concrete (CLC) combines a fine-pored cement-based body with a lighter masonry format. The cellular structure supports thermal insulation and makes blocks easier to handle, cut and lay. Use CLC as infill within a project-designed structural frame.",
+    "description": "Build lighter walls with Cellular Lightweight Concrete. Available in project-specific sizes and densities, Nanolite CLC blocks are designed for wall infill within an engineered structural frame.",
     "flow": "quote",
-    "features": [
-      "Lightweight wall infill",
-      "Fine-pored cellular structure",
-      "Thermal insulation",
-      "Cutting and laying flexibility"
+    "features": [],
+    "image": "assets/products/clc.webp",
+    "applications": [
+      "Wall infill",
+      "Partition walls",
+      "Residential and commercial buildings"
     ]
   },
   "panels": {
     "id": "panels",
-    "name": "Precast Panels",
+    "name": "Nano Precast Panels",
     "scene": 9,
-    "description": "Precast concrete panels for planned construction applications. Ask our team about suitability and specifications.",
+    "description": "Factory-made concrete panels for planned installation. Coordinate panel dimensions, lifting details and connections with the Nanolite technical team.",
     "flow": "quote",
-    "features": [
-      "Precast concrete construction",
-      "Planned lifting and installation",
-      "Project-specific panel specifications"
+    "features": [],
+    "image": "assets/products/panels.webp",
+    "applications": [
+      "Planned precast installation",
+      "Project-specific panel assemblies"
     ]
   },
   "tiles": {
     "id": "tiles",
-    "name": "Insulated Roof Tiles",
+    "name": "Nano Insulated Roof Tiles",
     "scene": 11,
-    "description": "A roof-insulation solution with a finished mineral surface. Discuss the right assembly for your building.",
+    "description": "A lightweight roof insulation system with a durable mineral finish. Choose the tile build-up and installation detail to suit your roof.",
     "flow": "quote",
-    "features": [
-      "Finished mineral roof surface",
-      "Roof insulation application",
-      "Assembly guidance for your building"
+    "features": [],
+    "image": "assets/products/tiles.webp",
+    "applications": [
+      "Roof insulation",
+      "Residential roofs",
+      "Commercial roofs"
     ]
   },
   "hybrid": {
@@ -46,6 +50,12 @@
       "Masonry and CLC infill",
       "Concrete frame and bond beam",
       "Explore each wall layer"
+    ],
+    "image": "assets/products/hybrid.webp",
+    "applications": [
+      "Residential construction",
+      "Commercial construction",
+      "Partition walls"
     ]
   },
   "permeable": {
@@ -58,6 +68,12 @@
       "Water-permeable paving",
       "Porous concrete surface",
       "Drainage assembly design"
+    ],
+    "image": "assets/products/permeable.webp",
+    "applications": [
+      "Parking areas",
+      "Footpaths",
+      "Driveways"
     ]
   },
   "readymix": {
@@ -70,18 +86,27 @@
       "40 kg bag",
       "Pakistan material price: PKR 600 / bag",
       "Freight and tax confirmed separately"
+    ],
+    "image": "assets/products/readymix.webp",
+    "applications": [
+      "CLC blocks",
+      "Roof insulation",
+      "Floor screeds",
+      "Void filling"
     ]
   },
   "agent": {
     "id": "agent",
-    "name": "Ready Foaming Agent",
+    "name": "Nanolite Ready Foaming Agent",
     "scene": 22,
-    "description": "Foaming agent in 200-litre drums. Pakistan material price: PKR 1,000/litre. Sales quantity is confirmed with our team.",
+    "description": "Create stable foam for Cellular Lightweight Concrete production. Supplied in industrial drums, with mixing and dilution guidance from our technical team.",
     "flow": "order",
-    "features": [
-      "200-litre storage drums",
-      "Pakistan material price: PKR 1,000 / litre",
-      "Sales quantity confirmed with our team"
+    "features": [],
+    "image": "assets/products/agent.webp",
+    "applications": [
+      "CLC production",
+      "Roof insulation",
+      "Lightweight screeds"
     ]
   },
   "t500": {
@@ -94,7 +119,8 @@
       "Compact portable configuration",
       "Explore the mixing equipment",
       "Discuss utilities and site readiness"
-    ]
+    ],
+    "image": "assets/products/t500.webp"
   },
   "t1000": {
     "id": "t1000",
@@ -106,7 +132,8 @@
       "Portable white and blue configuration",
       "Explore chassis, mixer and controls",
       "Request the approved equipment specification"
-    ]
+    ],
+    "image": "assets/products/t1000.webp"
   },
   "t5000": {
     "id": "t5000",
@@ -118,7 +145,8 @@
       "Larger portable configuration",
       "Explore the mixing and control systems",
       "Discuss your manufacturing requirements"
-    ]
+    ],
+    "image": "assets/products/t5000.webp"
   },
   "t10000": {
     "id": "t10000",
@@ -130,7 +158,8 @@
       "Installed mixing and material storage",
       "Access platforms and control systems",
       "Discuss your production site layout"
-    ]
+    ],
+    "image": "assets/products/t10000.webp"
   },
   "t15000": {
     "id": "t15000",
@@ -142,6 +171,22 @@
       "Integrated manufacturing facility",
       "Mixing, storage and material handling",
       "Discuss equipment and site planning"
+    ],
+    "image": "assets/products/t15000.webp"
+  },
+  "pouring": {
+    "id": "pouring",
+    "name": "Nanolite CLC Pouring",
+    "scene": 32,
+    "description": "On-site production and placement of Cellular Lightweight Concrete for roof insulation, floor screeds and void filling. Coordinate density, access and pumping requirements with our team.",
+    "flow": "quote",
+    "features": [],
+    "image": "assets/products/pouring.webp",
+    "applications": [
+      "Roof insulation",
+      "Floor screeds",
+      "Void filling",
+      "Pipeline backfilling"
     ]
   }
 }
