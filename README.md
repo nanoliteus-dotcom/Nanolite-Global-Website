@@ -51,3 +51,11 @@ The nighttime journey has longer camera holds, progressive clipped construction,
 The shared header now links Products, About us, Resources (corporate profile, product catalogue, ASTM case studies), Ask our experts, Contact us and the Nanolite app page. The owner-supplied corporate profile and product catalogue PDFs are served unmodified. The app page shows iOS and Android availability; store buttons remain disabled until actual store links are supplied. Expert inquiries prepare a reviewed email draft using the existing email pattern; there is no delivery backend.
 
 The ASTM feature changes hourly among concrete-related chapters of the official 125th Anniversary Case Study Compilation. Links go to the original publisher PDF with page anchors; the site does not republish standards or imply that these are Nanolite product reports. An open page refreshes its feature at most 30 seconds after the hour changes. External PDF availability and individual PDF viewers' page-anchor support remain outside this site.
+
+## Camera and product inspection refinement
+
+The opening view focuses on the construction site with centered copy and no road in frame. Product panels use translucent right-side glass on desktop and compact lower panels on mobile; the permeable-concrete panel rises from the bottom. Camera projection no longer changes when a panel appears. Block and roof-tile returns finish before the centered pullback, and travel phases suppress captions.
+
+The full roof has 176 tiles; one inspection tile separates its surface, insulation and backing layers. These layer shapes are illustrative, not approved assembly dimensions. Gradual rain, centered road framing and height-based underground fog replace abrupt state changes. Road markings avoid the shaft openings. A newly proportioned flatbed is tracked during delivery.
+
+ReadyMix now has 77 grounded bags on its pallet and the foaming agent has 12 shaped drums. Portable plants share a white-and-blue base design at three scales, with direct logo branding. Installed silos carry vertical Nanolite branding; service platforms connect the stairs and a yard billboard carries the company mark. Materials and models remain browser reconstructions, not manufacturer CAD. The structural caption describes load-dependent optimization without publishing an unsupported 35% savings figure.
