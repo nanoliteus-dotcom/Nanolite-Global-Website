@@ -67,3 +67,10 @@ Shared navigation, footer, product pages, app availability and forms now use sys
 The world now includes 46 surrounding buildings and a street grid, foundation banks, textured iron access covers, continuous side walls under drainage shafts, monotone cubic camera interpolation through the descent and tunnel, sill-anchored fitted windows, hollow glazed crane/truck cabs, truck lights and four cargo stacks. T500 and T1000 have one axle each; T5000 has two. Glass product panels enter and exit to the right independently of camera projection; the road panel retains its requested upward entry.
 
 The requested 35% dead-load reduction is identified as a design target requiring project engineering, not a verified universal saving. Browser geometry, procedural water and reconstructed equipment remain illustrative; this is not an offline film-quality render or manufacturer CAD. Store links and email delivery backend are still pending.
+
+
+## Camera clearance and compact inspection update
+
+The opening now descends from the sky before construction starts. Inspection cards fit their content, with a compact glass surface and right-side entry/exit; the drainage card keeps its bottom entry. Masonry joints are deeper and narrower units are used, roof tiles have a warmer finish than the cool precast panel, and structural highlights are translucent blue.
+
+Fifty city buildings occupy street parcels, including a western frontage. Factory views remain in the open service corridor; the regression suite samples the complete camera spline against recorded city building envelopes. Architectural glazing uses environment reflections without the transmission render pass. Shaders are prepared before the journey, desktop pixel density is capped at 1.5, shadows update up to 30 Hz during motion and 10 Hz during holds, and the canal reflection uses a 512-pixel target. Section geometry is cached on resize to avoid reading document layout on every frame. These limits reduce rendering work; frame rate still depends on device graphics and is not guaranteed. City and equipment remain procedural reconstructions, not film-quality assets.
