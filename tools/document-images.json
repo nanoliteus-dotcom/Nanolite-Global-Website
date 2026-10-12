@@ -1,0 +1,192 @@
+{
+  "corpprofile": [
+    {
+      "src": "assets/documents/corpprofile/01-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/corpprofile/02-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 2
+    },
+    {
+      "src": "assets/documents/corpprofile/03-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 3
+    },
+    {
+      "src": "assets/documents/corpprofile/04-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 4
+    },
+    {
+      "src": "assets/documents/corpprofile/05-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 5
+    },
+    {
+      "src": "assets/documents/corpprofile/06-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 6
+    },
+    {
+      "src": "assets/documents/corpprofile/07-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 7
+    },
+    {
+      "src": "assets/documents/corpprofile/08-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 8
+    },
+    {
+      "src": "assets/documents/corpprofile/09-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 9
+    },
+    {
+      "src": "assets/documents/corpprofile/10-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 10
+    },
+    {
+      "src": "assets/documents/corpprofile/11-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 11
+    },
+    {
+      "src": "assets/documents/corpprofile/12-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 12
+    },
+    {
+      "src": "assets/documents/corpprofile/13-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 13
+    },
+    {
+      "src": "assets/documents/corpprofile/14-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 14
+    },
+    {
+      "src": "assets/documents/corpprofile/15-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 15
+    },
+    {
+      "src": "assets/documents/corpprofile/16-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 16
+    },
+    {
+      "src": "assets/documents/corpprofile/17-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 17
+    },
+    {
+      "src": "assets/documents/corpprofile/18-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 18
+    },
+    {
+      "src": "assets/documents/corpprofile/19-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 19
+    },
+    {
+      "src": "assets/documents/corpprofile/20-01.jpg",
+      "width": 1500,
+      "height": 1061,
+      "page": 20
+    }
+  ],
+  "productcatalog": [
+    {
+      "src": "assets/documents/productcatalog/01-01.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-02.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-03.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-04.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-05.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-06.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-07.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-08.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-09.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-10.jpg",
+      "width": 1500,
+      "height": 1700,
+      "page": 1
+    },
+    {
+      "src": "assets/documents/productcatalog/01-11.jpg",
+      "width": 1500,
+      "height": 151,
+      "page": 1
+    }
+  ]
+}

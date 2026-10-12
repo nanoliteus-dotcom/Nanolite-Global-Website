@@ -4,20 +4,29 @@
     "standard": "ASTM C595/C595M",
     "page": 22,
     "url": "https://www.astm.org/v3/assets/blt5eb0a2cb04534832/bltffcfe1569da94222/67b2f711c4a32e2ceb970709/Final-125-Case-Study-Compilation.pdf#page=22",
-    "source": "ASTM International \u00b7 125th Anniversary Case Study Compilation"
+    "source": "ASTM International \u00b7 125th Anniversary Case Study Compilation",
+    "description": "Blended hydraulic cements combine Portland cement or clinker with constituents such as slag, pozzolan or limestone. The specification addresses composition and performance requirements for general and special applications.",
+    "discussion": "Discuss cement selection, supplier documentation and the project-specific performance tests required before using a binder in a lightweight concrete mix.",
+    "standard_url": "https://store.astm.org/c0595_c0595m-21.html"
   },
   {
     "title": "Loadbearing concrete masonry units",
     "standard": "ASTM C90",
     "page": 38,
     "url": "https://www.astm.org/v3/assets/blt5eb0a2cb04534832/bltffcfe1569da94222/67b2f711c4a32e2ceb970709/Final-125-Case-Study-Compilation.pdf#page=38",
-    "source": "ASTM International \u00b7 125th Anniversary Case Study Compilation"
+    "source": "ASTM International \u00b7 125th Anniversary Case Study Compilation",
+    "description": "This specification covers machine-made, dry-cast concrete masonry in lightweight, medium-weight and normal-weight classes. Its requirements are specific to the materials and manufacturing process within its scope.",
+    "discussion": "Confirm the applicable standard for your manufacturing process. CLC products should not be assumed to meet dry-cast masonry requirements simply because they have a similar appearance.",
+    "standard_url": "https://store.astm.org/standards/c90"
   },
   {
     "title": "Precast concrete septic tanks",
     "standard": "ASTM C1227",
     "page": 57,
     "url": "https://www.astm.org/v3/assets/blt5eb0a2cb04534832/bltffcfe1569da94222/67b2f711c4a32e2ceb970709/Final-125-Case-Study-Compilation.pdf#page=57",
-    "source": "ASTM International \u00b7 125th Anniversary Case Study Compilation"
+    "source": "ASTM International \u00b7 125th Anniversary Case Study Compilation",
+    "description": "This specification addresses precast concrete septic tanks and their manufacturing materials, including concrete constituents, reinforcement, placement and sealing. The case study considers standards in a specific precast application.",
+    "discussion": "Discuss the difference between a septic-tank specification and the requirements applicable to building panels. Review product-specific design, testing and installation documentation.",
+    "standard_url": "https://store.astm.org/c1227-22.html"
   }
 ]
