@@ -394,166 +394,251 @@
     "id": "t500",
     "name": "T-500 Plant",
     "scene": 23,
-    "description": "The T-500 is designed for startups and small businesses looking to enter the lightweight concrete industry with a modest investment. It is compact, easy to operate, and ideal for producing blocks for local construction projects or internal company use.",
+    "description": "The T-500 Plant is a cellular lightweight concrete production system with a nominal output of 500 blocks per day. The configuration uses slurry mixing and foam generation without bulk silos.",
     "flow": "plant",
     "features": [
-      "Compact portable configuration",
-      "Explore the mixing equipment",
-      "Discuss utilities and site readiness"
+      "500 blocks per day",
+      "Slurry and foam mixing",
+      "No bulk silos"
     ],
-    "image": "assets/original/pdf-10-193.png",
+    "image": "",
     "slug": "t500",
     "subtitle": "Start your production journey",
     "details": [
       {
-        "title": "Planning your production line",
-        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "title": "Production capacity",
+        "text": "Nominal output: 500 blocks per day. Actual output depends on block dimensions, mix design, shift length, mould availability, curing and handling. Confirm the operating specification with our team.",
         "list": []
+      },
+      {
+        "title": "Mixing & foam control",
+        "text": "The hollow-bore shaft spiral mixer is designed to distribute pre-generated foam through the slurry with controlled mixing, helping preserve the cellular structure. Mix design, dosing, mixing time and quality checks are established during commissioning.",
+        "list": []
+      },
+      {
+        "title": "Equipment configuration",
+        "text": "",
+        "list": [
+          "Slurry mixer",
+          "Foam generation and mixing system",
+          "Material preparation without bulk silos",
+          "Moulding and handling requirements selected for your site"
+        ]
       },
       {
         "title": "Installation & commissioning",
-        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "text": "Discuss site layout, utilities, installation, trial batches, operator training and the scope of ongoing assistance in your project proposal.",
         "list": []
       },
       {
-        "title": "Project requirements",
-        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "title": "Plan your facility",
+        "text": "Share your location, factory area, target products, utility availability and intended start date. Our team will prepare an equipment and production-layout proposal.",
         "list": []
       }
     ],
-    "price": "Price on request"
+    "price": "Price on request",
+    "capacity": 500,
+    "silos": false
   },
   "t1000": {
     "id": "t1000",
     "name": "T-1000 Plant",
     "scene": 24,
-    "description": "The T-1000 is built for businesses requiring greater production capacity while maintaining excellent product consistency. It offers improved workflow, higher efficiency, and increased daily output, making it suitable for growing manufacturers and commercial construction companies.",
+    "description": "The T-1000 Plant is a cellular lightweight concrete production system with a nominal output of 1,000 blocks per day. The configuration uses slurry mixing and foam generation without bulk silos.",
     "flow": "plant",
     "features": [
-      "Portable white and blue configuration",
-      "Explore chassis, mixer and controls",
-      "Request the approved equipment specification"
+      "1,000 blocks per day",
+      "Slurry and foam mixing",
+      "No bulk silos"
     ],
-    "image": "assets/original/pdf-10-194.png",
+    "image": "",
     "slug": "t1000",
     "subtitle": "A portable plant for growing manufacturers",
     "details": [
       {
-        "title": "Planning your production line",
-        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "title": "Production capacity",
+        "text": "Nominal output: 1,000 blocks per day. Actual output depends on block dimensions, mix design, shift length, mould availability, curing and handling. Confirm the operating specification with our team.",
         "list": []
+      },
+      {
+        "title": "Mixing & foam control",
+        "text": "The hollow-bore shaft spiral mixer is designed to distribute pre-generated foam through the slurry with controlled mixing, helping preserve the cellular structure. Mix design, dosing, mixing time and quality checks are established during commissioning.",
+        "list": []
+      },
+      {
+        "title": "Equipment configuration",
+        "text": "",
+        "list": [
+          "Slurry mixer",
+          "Foam generation and mixing system",
+          "Material preparation without bulk silos",
+          "Moulding and handling requirements selected for your site"
+        ]
       },
       {
         "title": "Installation & commissioning",
-        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "text": "Discuss site layout, utilities, installation, trial batches, operator training and the scope of ongoing assistance in your project proposal.",
         "list": []
       },
       {
-        "title": "Project requirements",
-        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "title": "Plan your facility",
+        "text": "Share your location, factory area, target products, utility availability and intended start date. Our team will prepare an equipment and production-layout proposal.",
         "list": []
       }
     ],
-    "price": "Price on request"
+    "price": "Price on request",
+    "capacity": 1000,
+    "silos": false
   },
   "t5000": {
     "id": "t5000",
     "name": "T-5000 Franchise",
     "scene": 25,
-    "description": "The T-5000 is the first industrial-scale plant within the Nanolite Franchise Program. It is designed for businesses ready to establish a dedicated manufacturing facility capable of supplying contractors, developers, and regional distributors.",
+    "description": "The T-5000 Franchise is a cellular lightweight concrete production system with a nominal output of 5,000 blocks per day. The configuration uses slurry mixing and foam generation without bulk silos.",
     "flow": "plant",
     "features": [
-      "Larger portable configuration",
-      "Explore the mixing and control systems",
-      "Discuss your manufacturing requirements"
+      "5,000 blocks per day",
+      "Slurry and foam mixing",
+      "No bulk silos"
     ],
-    "image": "assets/original/pdf-10-195.png",
+    "image": "",
     "slug": "t5000",
     "subtitle": "Establish your manufacturing operation",
     "details": [
       {
-        "title": "Planning your production line",
-        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "title": "Production capacity",
+        "text": "Nominal output: 5,000 blocks per day. Actual output depends on block dimensions, mix design, shift length, mould availability, curing and handling. Confirm the operating specification with our team.",
         "list": []
+      },
+      {
+        "title": "Mixing & foam control",
+        "text": "The hollow-bore shaft spiral mixer is designed to distribute pre-generated foam through the slurry with controlled mixing, helping preserve the cellular structure. Mix design, dosing, mixing time and quality checks are established during commissioning.",
+        "list": []
+      },
+      {
+        "title": "Equipment configuration",
+        "text": "",
+        "list": [
+          "Slurry mixer",
+          "Foam generation and mixing system",
+          "Material preparation without bulk silos",
+          "Moulding and handling requirements selected for your site"
+        ]
       },
       {
         "title": "Installation & commissioning",
-        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "text": "Discuss site layout, utilities, installation, trial batches, operator training and the scope of ongoing assistance in your project proposal.",
         "list": []
       },
       {
-        "title": "Project requirements",
-        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "title": "Plan your facility",
+        "text": "Share your location, factory area, target products, utility availability and intended start date. Our team will prepare an equipment and production-layout proposal.",
         "list": []
       }
     ],
-    "price": "Price on request"
+    "price": "Price on request",
+    "capacity": 5000,
+    "silos": false
   },
   "t10000": {
     "id": "t10000",
     "name": "T-10000 Franchise",
     "scene": 26,
-    "description": "The T-10000 is engineered for manufacturers supplying large residential developments, commercial projects, and government housing schemes. Its advanced production system enables high- volume manufacturing while maintaining consistent quality and operational efficiency.",
+    "description": "The T-10000 Franchise is a cellular lightweight concrete production system with a nominal output of 10,000 blocks per day. The configuration includes bulk silos, slurry mixing and foam generation for coordinated material preparation.",
     "flow": "plant",
     "features": [
-      "Installed mixing and material storage",
-      "Access platforms and control systems",
-      "Discuss your production site layout"
+      "10,000 blocks per day",
+      "Slurry and foam mixing",
+      "Bulk silo system"
     ],
-    "image": "assets/original/pdf-10-196.png",
+    "image": "",
     "slug": "t10000",
     "subtitle": "Production for larger operations",
     "details": [
       {
-        "title": "Planning your production line",
-        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "title": "Production capacity",
+        "text": "Nominal output: 10,000 blocks per day. Actual output depends on block dimensions, mix design, shift length, mould availability, curing and handling. Confirm the operating specification with our team.",
         "list": []
+      },
+      {
+        "title": "Mixing & foam control",
+        "text": "The hollow-bore shaft spiral mixer is designed to distribute pre-generated foam through the slurry with controlled mixing, helping preserve the cellular structure. Mix design, dosing, mixing time and quality checks are established during commissioning.",
+        "list": []
+      },
+      {
+        "title": "Equipment configuration",
+        "text": "",
+        "list": [
+          "Slurry mixer",
+          "Foam generation and mixing system",
+          "Bulk storage silos",
+          "Moulding and handling requirements selected for your site"
+        ]
       },
       {
         "title": "Installation & commissioning",
-        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "text": "Discuss site layout, utilities, installation, trial batches, operator training and the scope of ongoing assistance in your project proposal.",
         "list": []
       },
       {
-        "title": "Project requirements",
-        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "title": "Plan your facility",
+        "text": "Share your location, factory area, target products, utility availability and intended start date. Our team will prepare an equipment and production-layout proposal.",
         "list": []
       }
     ],
-    "price": "Price on request"
+    "price": "Price on request",
+    "capacity": 10000,
+    "silos": true
   },
   "t15000": {
     "id": "t15000",
     "name": "T-15000 Franchise",
     "scene": 27,
-    "description": "The T-15000 is Nanolite's flagship manufacturing solution, developed for major investors and international partners seeking maximum production capacity. Designed for continuous industrial operation, this plant supports large-scale projects, exports, and nationwide distribution.",
+    "description": "The T-15000 Franchise is a cellular lightweight concrete production system with a nominal output of 15,000 blocks per day. The configuration includes bulk silos, slurry mixing and foam generation for coordinated material preparation.",
     "flow": "plant",
     "features": [
-      "Integrated manufacturing facility",
-      "Mixing, storage and material handling",
-      "Discuss equipment and site planning"
+      "15,000 blocks per day",
+      "Slurry and foam mixing",
+      "Bulk silo system"
     ],
-    "image": "assets/original/pdf-10-198.png",
+    "image": "",
     "slug": "t15000",
     "subtitle": "Our flagship manufacturing solution",
     "details": [
       {
-        "title": "Planning your production line",
-        "text": "Discuss your target products, required output, site layout, electricity and water supply with our technical team. Equipment configurations are selected for the production requirements of your business.",
+        "title": "Production capacity",
+        "text": "Nominal output: 15,000 blocks per day. Actual output depends on block dimensions, mix design, shift length, mould availability, curing and handling. Confirm the operating specification with our team.",
         "list": []
+      },
+      {
+        "title": "Mixing & foam control",
+        "text": "The hollow-bore shaft spiral mixer is designed to distribute pre-generated foam through the slurry with controlled mixing, helping preserve the cellular structure. Mix design, dosing, mixing time and quality checks are established during commissioning.",
+        "list": []
+      },
+      {
+        "title": "Equipment configuration",
+        "text": "",
+        "list": [
+          "Slurry mixer",
+          "Foam generation and mixing system",
+          "Bulk storage silos",
+          "Moulding and handling requirements selected for your site"
+        ]
       },
       {
         "title": "Installation & commissioning",
-        "text": "Our team assists with plant planning, machinery selection, production-line design, commissioning, process guidance and operator training. Confirm the scope of installation and support in your quotation.",
+        "text": "Discuss site layout, utilities, installation, trial batches, operator training and the scope of ongoing assistance in your project proposal.",
         "list": []
       },
       {
-        "title": "Project requirements",
-        "text": "Share your project location, available factory area, utility readiness, target products and intended start date. We will prepare a project-specific equipment proposal.",
+        "title": "Plan your facility",
+        "text": "Share your location, factory area, target products, utility availability and intended start date. Our team will prepare an equipment and production-layout proposal.",
         "list": []
       }
     ],
-    "price": "Price on request"
+    "price": "Price on request",
+    "capacity": 15000,
+    "silos": true
   },
   "pouring": {
     "id": "pouring",
@@ -613,5 +698,54 @@
       }
     ],
     "price": "Price on request"
+  },
+  "t20000": {
+    "id": "t20000",
+    "name": "T-20000 Franchise",
+    "flow": "plant",
+    "features": [
+      "20,000 blocks per day",
+      "Slurry and foam mixing",
+      "Bulk silo system"
+    ],
+    "slug": "t20000",
+    "subtitle": "Manufacturing at an industrial scale",
+    "image": "",
+    "details": [
+      {
+        "title": "Production capacity",
+        "text": "Nominal output: 20,000 blocks per day. Actual output depends on block dimensions, mix design, shift length, mould availability, curing and handling. Confirm the operating specification with our team.",
+        "list": []
+      },
+      {
+        "title": "Mixing & foam control",
+        "text": "The hollow-bore shaft spiral mixer is designed to distribute pre-generated foam through the slurry with controlled mixing, helping preserve the cellular structure. Mix design, dosing, mixing time and quality checks are established during commissioning.",
+        "list": []
+      },
+      {
+        "title": "Equipment configuration",
+        "text": "",
+        "list": [
+          "Slurry mixer",
+          "Foam generation and mixing system",
+          "Bulk storage silos",
+          "Moulding and handling requirements selected for your site"
+        ]
+      },
+      {
+        "title": "Installation & commissioning",
+        "text": "Discuss site layout, utilities, installation, trial batches, operator training and the scope of ongoing assistance in your project proposal.",
+        "list": []
+      },
+      {
+        "title": "Plan your facility",
+        "text": "Share your location, factory area, target products, utility availability and intended start date. Our team will prepare an equipment and production-layout proposal.",
+        "list": []
+      }
+    ],
+    "price": "Price on request",
+    "capacity": 20000,
+    "silos": true,
+    "description": "The T-20000 Franchise is a cellular lightweight concrete production system with a nominal output of 20,000 blocks per day. The configuration includes bulk silos, slurry mixing and foam generation for coordinated material preparation."
   }
 }
