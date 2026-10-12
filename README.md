@@ -1,6 +1,6 @@
 # Nanolite Global
 
-A static, responsive rebuild of the original Nanolite Global site. The Global header is redesigned with compact navigation. The Group footer layout is adapted to Global branding, navigation and office information. The opening logo is centered over the supplied water video. No 3D journey or rendering dependency is included in deployment.
+A static, responsive rebuild of the original Nanolite Global site. The Global header is redesigned with compact navigation. The Group footer layout is adapted to Global branding, navigation and office information. The opening logo is centered over the supplied water video. The retired 3D journey remains removed. Five product pages have isolated, lazy-loaded 3D illustrations using the existing Three.js runtime and product textures.
 
 ## Content
 
@@ -30,3 +30,5 @@ Manrope font: Google Fonts, SIL Open Font License. Product imagery comes from th
 
 The supplied water background retains 1920 x 1080 at 50 fps. The CLC film retains 1280 x 720 at 55 fps and appears immediately below the ReadyMix bags, full-width at 16:9, looping with only a mute/unmute button. Both files are compressed for hosting and pause off-screen. Company photography comes from the owned Group release. App notices retain their original draft status; the website policy describes the current email-draft forms and hosting.
 Latest refinements: black rectangular Application sign-in link, larger header identity, direct Careers/Investors navigation, overlapping CLC blocks, enlarged hybrid wall artwork, tighter ReadyMix-to-film spacing, centered heritage and compact vision/mission sections. Corporate profile uses the complete 20-page document; the full catalog and profile are rendered as normal scrollable page images with original PDF download links. The Group chart is reused with explicit illustrative-data labels; no live quote feed is configured.
+
+Latest update: Explore cue raised 8px; ReadyMix bottom spacing tightened; homepage franchise section and full franchise page rebuilt. Five product illustrations rotate with pause, drag, keyboard and reduced-motion support. ReadyMix supporting pictures sit below the client advisor; Founder/Chairman portraits are rounded. ASTM scope links align across the desktop row. The white investor chart spans the page and shows sample open/high/low values. Career applications and investor inquiries open Contact Us with a topic prefill. The app button is named Nanolite Portal. Replacement machine images and franchise-cover video remain pending from the user.
