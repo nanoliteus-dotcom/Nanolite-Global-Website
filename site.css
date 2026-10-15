@@ -60,3 +60,10 @@ input,select,textarea{border:1px solid #d9dde0;background:#fff;border-radius:5px
 /* Material buttons share the manufacturing-system button proportions. */
 .action.material-link{padding:13px 23px;min-height:44px;font-size:12px;font-weight:400;line-height:1.5;border-radius:8px;background:#d9f4c7;border-color:#bfe4a8;color:#254c32;text-decoration:none}
 .action.material-link:hover{background:#c9edb3;color:#193b25}
+
+/* Balanced mobile destination links match the Group website. */
+@media(max-width:700px){
+ .header>.site-link,.header>.app-link{box-sizing:border-box;position:absolute;top:60px;right:auto;display:flex;align-items:center;justify-content:center;width:calc(50% - 21px);height:44px;min-height:44px;padding:10px 8px;font-size:12px;line-height:20px;text-align:center;margin:0}
+ .header>.site-link{left:16px}
+ .header>.app-link{left:calc(50% + 5px)}
+}
