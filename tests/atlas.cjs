@@ -17,6 +17,7 @@ const server=http.createServer((req,res)=>{
  try {
   await page.goto(origin+'/');assert.match(await page.title(),/Nanolite/i);
   await page.goto(origin+'/Atlas');await page.locator('.site-header').waitFor();assert.match(await page.title(),/Atlas/);assert(await page.locator('body').evaluate(e=>e.classList.contains('home-route')));
+  assert.equal(await page.locator('.header-group-link').getAttribute('href'),'https://www.nanolitegroupofcompanies.com/');
   const navigation=await page.locator('a[href^="/Atlas"]').evaluateAll(links=>links.map(a=>new URL(a.href).pathname));
   const routes=[...new Set([...navigation,...JSON.parse(fs.readFileSync(path.join(__dirname,'../tools/atlas-routes.json'),'utf8')).map(route=>'/Atlas'+route)])];
   assert(routes.length>20,'Full Atlas navigation must remain available');
