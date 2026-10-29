@@ -4,8 +4,9 @@
 `website/atlas-public-preview`, source commit `e58b0c6`, mounted at `/Atlas/`.
 The existing standalone Atlas deployment is unchanged.
 
-The Global build copies this directory unchanged. Pages `_redirects` supplies
-the Atlas client-side routes without changing the Global website's routes.
+The Global build copies this directory and generates an HTML entry for every
+route in `tools/atlas-routes.json`. This works on Pages and Workers without a
+site-wide SPA fallback, preserving the Global website's routes.
 
 To refresh the snapshot, check out the desired Atlas release and install its
 locked dependencies. Run `python tools/prepare-atlas-subpath.py ABSOLUTE_ATLAS_CHECKOUT`.

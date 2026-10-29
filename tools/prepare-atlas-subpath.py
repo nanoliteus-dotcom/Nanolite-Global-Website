@@ -23,6 +23,9 @@ for file in (stage / 'src').glob('*.js'):
         content = content.replace("const isHome=path==='/Atlas/'", "const isHome=path==='/Atlas'")
     if file.name == 'audio.js':
         content = content.replace("location.pathname.split('/Atlas/')[1]", "location.pathname.slice('/Atlas'.length).split('/')[1]")
+    if file.name == 'desk-scene.js':
+        # This is a filename suffix after a model directory, not a root URL.
+        content = content.replace("name+'/Atlas/model.gltf'", "name+'/model.gltf'")
     file.write_text(content, encoding='utf-8')
 
 # Vite rebases imports, CSS URLs and the favicon via its existing base option.
