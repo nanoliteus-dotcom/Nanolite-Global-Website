@@ -1,0 +1,6 @@
+Models and their textures are CC0 assets from Poly Haven (https://polyhaven.com/license).
+Desk Lamp Arm 01: https://polyhaven.com/a/desk_lamp_arm_01
+Potted Plant 04: https://polyhaven.com/a/potted_plant_04
+Camera 01: https://polyhaven.com/a/Camera_01
+Assets converted to WebP for browser delivery. Geometry unchanged.
+Potted Plant 02: https://polyhaven.com/a/potted_plant_02
