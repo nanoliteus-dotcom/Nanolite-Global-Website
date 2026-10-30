@@ -1,7 +1,7 @@
 # Atlas on Nanolite Global
 
 `Atlas/` is a production build of `nanoliteus-dotcom/Nanolite` (formerly Atlas),
-branch `website/atlas-public-preview`, source commit `fcf1606`, mounted at `/Atlas/`.
+branch `website/atlas-public-preview`, source commit `7258f27`, mounted at `/Atlas/`.
 The existing standalone Atlas deployment is unchanged.
 
 The Global build copies this directory and generates an HTML entry for every

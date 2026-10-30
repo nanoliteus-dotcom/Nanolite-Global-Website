@@ -18,13 +18,15 @@ const server=http.createServer((req,res)=>{
   await page.goto(origin+'/');assert.match(await page.title(),/Nanolite/i);
   await page.goto(origin+'/Atlas');await page.locator('.site-header').waitFor();assert.match(await page.title(),/Atlas/);assert(await page.locator('body').evaluate(e=>e.classList.contains('home-route')));
   assert.equal(await page.locator('.header-group-link').getAttribute('href'),'https://www.nanolitegroupofcompanies.com/');
+  assert(await page.locator('.site-header .brand').evaluate(e=>{const icon=e.querySelector('img').getBoundingClientRect(),word=e.querySelector('.wordmark').getBoundingClientRect();return Math.abs(icon.y+icon.height/2-word.y-word.height/2)<1}),'Atlas logo and name must stay on one line');
   const navigation=await page.locator('a[href^="/Atlas"]').evaluateAll(links=>links.map(a=>new URL(a.href).pathname));
   const routes=[...new Set([...navigation,...JSON.parse(fs.readFileSync(path.join(__dirname,'../tools/atlas-routes.json'),'utf8')).map(route=>'/Atlas'+route)])];
   assert(routes.length>20,'Full Atlas navigation must remain available');
   await page.waitForTimeout(2500);
   for(const route of routes){await page.goto(origin+route);await page.locator('.site-header').waitFor({timeout:10000}).catch(e=>{throw Error(route+': '+e.message)});assert(!/Page Not Found/.test(await page.title()),route);assert.equal(await page.locator('a[href^="/"]:not([href^="/Atlas/"])').count(),0,'Link escaped Atlas: '+route)}
   await page.goto(origin+'/Atlas/enterprise/automations');assert.equal(await page.locator('h1').textContent(),'From content to published posts.');
-  for(const width of [390,768,1440]){await page.setViewportSize({width,height:900});await page.goto(origin+'/Atlas/product');await page.locator('h1').waitFor();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Overflow '+width)}
+  for(const width of [320,390,768,1440]){await page.setViewportSize({width,height:900});await page.goto(origin+'/Atlas/product');await page.locator('h1').waitFor();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'Overflow '+width)}
+  await page.setViewportSize({width:390,height:844});await page.goto(origin+'/Atlas/pricing');const cards=await page.locator('.premium-plan').evaluateAll(es=>es.map(e=>e.getBoundingClientRect().top));assert.equal(cards.length,4);assert(cards.every(y=>Math.abs(y-cards[0])<1),'Mobile plans must share one row');
   assert.deepEqual(errors,[]);assert.deepEqual(failed,[]);
   console.log('PASS Atlas home, '+routes.length+' routes, navigation isolation, assets, desktop/mobile layout, and Global homepage');
  } finally {await browser.close();server.close()}
